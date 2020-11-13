@@ -1,0 +1,2 @@
+USER_ID = '31mgpcu25q67lqcipqdg2rakbms4'
+TOKEN = 'BQAShEBUGLiZZHFqWtSVVTXrPSNGwTPJ3j5zLs-PhiblN5j5n7utLazoDNQ5OvmanPEnVciqc25l6UH5FvQJo_A5Qdw-QUk5y_u6GtsvC8cnzkWO1CtwvqUOPsH2gpymWg7CTrWXRUeFpO5lzvTq2NupDaJMO2SZ-YelzRyC'
