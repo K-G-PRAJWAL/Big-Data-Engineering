@@ -2,8 +2,8 @@
 
 - O'REILLY PUBLICATIONS
   - Hadoop: The Definitive Guide
-  - HBase: The Definitve Guide
-  - Cassandra: The Definitve Guide
+  - HBase: The Definitive Guide
+  - Cassandra: The Definitive Guide
   - Programming Hive
   - MongoDB: The Definitive Guide
   - ZooKeeper
