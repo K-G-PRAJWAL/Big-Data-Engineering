@@ -1,0 +1,60 @@
+su root
+wget https://repo1.maven.org/maven2/com/facebook/presto/presto-server/0.243.2/presto-server-0.243.2.tar.gz
+tar -xvf presto-server-0.243.2.tar.gz
+ls
+cd presto-server-0.243.2
+ls
+wget http://media.sundog-soft.com/hadoop/presto-hdp-config.tgz
+tar -xvf presto-hdp-config.tgz
+cd etc
+cat config.properties
+cat node.properties
+cd catalog
+ls
+cat hive.properties
+cd ..
+cd ..
+wget https://repo1.maven.org/maven2/com/facebook/presto/presto-cli/0.243.2/presto-cli-0.243.2-executable.jar
+mv presto-cli-0.243.2-executable.jar presto
+chmod +x presto
+cd ..
+bin/launcher start
+
+Browser = 127.0.0.1:8090
+
+bin/presto --server 127.0.0.1:8090 --catalog hive
+show tables from default;
+select * from default.ratings limit 10;
+select * from default.ratings where rating = 5 limit 10;
+quit
+bin/launcher stop
+
+===================================================================================================================
+
+scl enable python27 bash
+python -V
+service cassandra start
+nodetool enablethrift
+cqlsh --cqlversion="3.4.0"
+describe keyspaces;
+use movielens;
+describe tables;
+select * from users limit 10;
+quit
+cd etc/catalog
+vi cassandra.properties
+
+connector.name=cassandra
+cassandra.contact.points=127.0.0.1
+
+cd ../..
+bin/launcher start
+bin/presto --server 127.0.0.1:8090 --catalog hive,cassandra
+show tables from cassandra.movielens;
+describe cassandra.movielens.users;
+select * from cassandra.movielens.users limit 10;
+select * from hive.default.ratings limit 10;
+select u.occupation, count(*) from hive.default.ratings r join cassandra.movielens.users u on r.user_id = u.user_id group by u.occupation;
+
+bin/launcher stop
+service cassandra stop

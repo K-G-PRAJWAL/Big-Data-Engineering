@@ -1,0 +1,20 @@
+wget http://media.sundog-soft.com/hadoop/movielens.sql
+set name 'utf8';
+set character set utf8;
+create database movielens;
+use movielens;
+source movielens.sql;
+grant all privileges on movielens.* to ''@'localhost';
+quit
+
+wget http://media.sundog-soft.com/hadoop/oldmovies.sql
+wget http://media.sundog-soft.com/hadoop/workflow.xml
+wget http://media.sundog-soft.com/hadoop/job.properties
+
+hadoop fs -put workflow.xml /user/maria_dev
+hadoop fs -put oldMovies.sql /user/maria_dev
+hadoop fs -put /usr/share/java/mysql-connector-java.jar /user/oozie/share/lib/lib_20161025075203/sqoop
+
+oozie job -oozie http://localhost:11000/oozie -config /home/maria_dev/job.properties -run
+
+Browser: http://localhost:11000/oozie

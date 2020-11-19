@@ -1,0 +1,47 @@
+Browser: 127.0.0.1:9995
+
+%md
+### Let's make sure Spark is working first!
+
+sc.version
+
+%sh
+wget http://media.sundog-soft.com/hadoop/ml-100k/u.data -O /tmp/u.data
+wget http://media.sundog-soft.com/hadoop/ml-100k/u.item -O /tmp/u.item
+echo "Downloaded!"
+
+%sh
+hadoop fs -rm -r -f /tmp/ml-100k
+hadoop fs -mkdir /tmp/ml-100k
+hadoop fs -put /tmp/u.data /tmp/ml-100k/
+hadoop fs -put /tmp/u.item /tmp/ml-100k/
+
+final case class Rating(movieID:Int, rating:Int)
+val lines = sc.textFile("hdfs:///tmp/ml-100k/u.data").map(x => {val fields = x.split("\t"); Rating(fields(1).toInt, fields(2).toInt)})
+
+import sqlContext.implicits._
+val ratingsDF = lines.toDF()
+ratingsDF.printSchema()
+
+val topMovieIDs = ratingsDF.groupBy("movieID").count().orderBy(desc("count")).cache()
+topMovieIDs.show()
+
+ratingsDF.registerTempTable("ratings")
+
+%sql
+SELECT * FROM ratings LIMIT 10
+
+%sql
+SELECT ratings, COUNT(*) as count FROM ratings GROUP BY rating;
+
+final case class Movie(movieID:Int, title:String)
+val lines = sc.textFile("hdfs:///tmp/ml-100k/u.item").map(x => {val fields = x.split("|"); Movie9fields(0).toInt, fields(1))})
+
+import sqlContext.implicits._
+val moviesDF = lines.toDF();
+moviesDF.show();
+
+moviesDF.registerTempTable("titles")
+
+%sql
+SELECT t.title, count(*) as cnt FROM ratings r JOIN titles t ON r.movieID = t.movieID GROUP BY t.title ORDER BY cnt DESC LIMIT 20

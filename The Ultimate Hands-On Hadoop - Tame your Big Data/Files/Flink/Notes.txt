@@ -1,0 +1,33 @@
+flink.apache.org
+
+wget http://apache.cs.utah.edu/flink/flink-1.2.0/flink-1.2.0-bin-hadoop27-scala_2.10.tgz
+tar -xvf flink-1.2.0-bin-hadoop27-scala_2.10.tgz
+
+cd flink-1.2.0
+ls
+
+cd conf
+vi flink-conf.yaml
+Change jobmanager.web.port: 8082
+
+cd ..
+
+./bin/start-local.sh
+
+Browser = 127.0.0.1:8082
+
+nc -l 9000
+
+(New Terminal)
+cd flink-1.2.0
+./bin/flink run examples/streaming/SocketWindowWordCount.jar --port 9000
+
+(Old Terminal)
+Hello i am Hello telling you Hello from Hello.
+
+(Another New Terminal)
+cd flink-1.2.0
+cd log/
+cat flink-maria_dev-jobmanager-0-sandbox.hortonworks.com.out
+
+./bin/stop-local.sh

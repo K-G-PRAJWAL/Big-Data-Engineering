@@ -1,0 +1,17 @@
+mkdir ml-100k
+cd ml-100k
+wget http://media.sundog-soft.com/hadoop/ml-100k/u.item
+cd ..
+wget http://media.sundog-soft.com/hadoop/Spark.zip
+unzip Spark.zip
+spark-submit LowestRatedMovieSpark.py
+
+================================================================================================================================
+
+export SPARK_MAJOR_VERSION=2
+spark-submit LowestRatedMovieDataFrame.py
+
+================================================================================================================================
+
+spark-submit LowestRatedPopularMovieSpark.py
+spark-submit LowestRatedPopularMovieDataFrame.py

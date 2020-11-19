@@ -1,0 +1,14 @@
+Ambari -> Hive -> Upload Table -> CSV -> '|' Delimiter -> u.item
+
+Hive:
+
+DROP VIEW IF EXISTS topMovieIDs;
+
+CREATE VIEW topMovieIDs AS
+SELECT movie_id, count(movie_id) as ratingCount
+FROM movielens.ratings
+GROUP BY movie_id
+ORDER BY ratingCount DESC;
+
+SELECT n.name, ratingCount
+FROM topMovieIDs t JOIN movielens.names n ON t.movie_id=n.movie_id;

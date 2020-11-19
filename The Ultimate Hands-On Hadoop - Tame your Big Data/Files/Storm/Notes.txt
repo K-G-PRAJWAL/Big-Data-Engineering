@@ -1,0 +1,21 @@
+Start Storm & Kafka
+
+cd /usr/hdp/current/storm-client
+ls
+cd contrib/storm-starter/src/jvm/org/apache/storm/starter
+ls
+vi WordCountTopology.java
+storm jar /usr/hdp/current/storm-client/contrib/storm-starter/storm-starter-topologies-*.jar org.apache.storm.starter.WordCountTopoplogy wordcount
+
+
+Browser = 127.0.0.1:8744
+
+
+cd /usr/hdp/current/storm-client/logs
+cd workers-artifacts/
+cd wordcount-4-1487259618
+ls
+cd 6700
+ls
+ls -ltr
+tail -f worker.log

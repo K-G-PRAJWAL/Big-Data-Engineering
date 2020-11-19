@@ -1,0 +1,54 @@
+cd /usr/hdp/current/kafka-broker/
+cd bin
+ls
+
+Create a topic:
+./kafka-topics.sh --create --zookeeper sandbox.hortonworks.com:2181 --replication-factor 1 --partitions 1 --topic topic1
+
+List all topics:
+./kafka-topics.sh --list --zookeeper sandbox.hortonworks.com:2181
+
+Publish to topic1:
+./kafka-console-producer.sh --broker-list sandbox.hortonworks.com:6667 --topic topic1
+
+Consume the message:
+./kafka-console-consumer.sh --bootstrap-server sandbox.hortonworks.com:6667 --zookeeper localhost:2181 --topic topic1 --from-beginning
+
+Kakfa Connector to monitor a file:
+(Terminal 1)
+cd ..
+ls
+cd conf
+ls
+cp connect-standalone.properties ~/
+cp connect-file-sink.properties ~/
+cp connect-file-source.properties ~/
+cd ~
+vi connect-standalone.properties
+
+boostrap.servers=sandbox.hortonworks.com:6667
+
+vi connect-file-sink.properties
+
+file=/home/maria_dev/logout.txt
+topics=log-test
+
+vi connect-file-source.properties
+
+file=/home/maria_dev/access_log_small.txt
+topics=log-test
+
+wget http://media.sundog-soft.com/hadoop/access_log_small.txt
+
+(Terminal 2)
+cd /usr/hdp/current/kafka-broker/bin
+./kafka-console-consumer.sh --bootstrap-server sandbox.hortonworks.com:6667 --zookeeper localhost:2181 --topic log-test
+
+(Terminal 1)
+cd /usr/hdp/current/kafka-broker/bin
+./connect-standalone.sh ~/connect-standalone.properties ~/connect-file-source.properties ~/connect-file-sink.properties
+
+(Terminal 3)
+cd ~
+cat logout.txt
+echo "This is a line\n" >> access_log_small.txt

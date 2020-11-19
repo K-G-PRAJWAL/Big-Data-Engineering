@@ -1,0 +1,13 @@
+su root
+cd /usr/hdp/current/zookeeper-client/
+cd bin
+ls
+./zkCli.sh
+ls /
+create -e /testmaster "127.0.0.1:2223"
+get /testmaster
+quit
+./zkCli.sh
+ls /
+get /testmaster
+create -e /testmaster "127.0.0.1:2223"

@@ -1,0 +1,46 @@
+Hive:
+
+CREATE DATABASE movielens;
+
+Upload Table -> Tab Delimited -> u.item -> Database: movielens -> Table name: ratings -> rename columns
+
+SELECT * FROM ratings LIMIT 100;
+
+==================================================================================================================
+
+MongoDB:
+
+su root
+ls
+export SPARK_MAJOR_VERSION=2
+spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.0.0 MongoSpark.py
+
+==================================================================================================================
+
+Drill:
+
+su root
+wget http://archive.apache.org/dist/drill/drill-1.12.0/apache-drill-1.12.0.tar.gz
+tar -xvf apache-drill-1.12.0.tar.gz
+cd apache-drill-1.12.0
+ls
+bin/drillbit.sh start -Ddrill.exec.port=8765
+
+==================================================================================================================
+
+Browser:
+
+127.0.0.1:8765
+Enable hive and mongo
+Update hive > "hive.metastore.uris": "thrift://localhost:9083" > Update
+Query:
+SHOW DATABASES;
+SELECT * FROM hive.movielens.ratings LIMIT 10;
+SELECT * FROM mongo.movielens.users LIMIT 10;
+SELECT u.occupation, COUNT(*)
+FROM hive.movielens.ratings r JOIN mongo.movielens.users u ON r.user_id=u.user_id
+GROUP BY u.occupation;
+
+==================================================================================================================
+
+bin.drillbit.sh stop

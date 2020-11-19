@@ -1,0 +1,48 @@
+                                      Availability
+                                    /              \
+                                   /                \
+                          MySQL   /                  \  Cassandra
+                                 /                    \
+                                /                      \
+                          Consistency            Partition Tolerance
+                              /                          \
+                             /                            \
+                            /--------HBase,MongoDB---------\
+
+==================================================================================================================
+
+su root
+python -V
+yum update
+yum install scl-utils
+yum install centos-release-scl-rh
+yum install python27
+scl enable python27 bash
+python -V
+cd /etc/yum.repos.d
+ls
+vi datastax.repo
+
+[datastax]
+name = DataStax Repo for Apache Cassandra
+baseurl = http://rpm.datastax.com/community
+enabled = 1
+gpgcheck = 0
+
+cat datastax.repo
+yum install dsc30
+pip install cqlsh
+service cassandra start
+cqlsh --cqlversion="3.4.0"
+CREATE KEYSPACE movielens WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'} AND durable_writes = true;
+USE movielens;
+CREATE TABLE users (user_id int, age int, gender text, occupation text, zip text, PRIMARY KEY (user_id));
+DESCRIBE TABLE users;
+SELECT * FROM users;
+exit
+wget http://media.sundog-soft.com/hadoop/CassandraSpark.py
+export SPARK_MAJOR_VERSION=2
+spark-submit --packages datastax:spark-cassandra-connector:2.0.0-M2-s_2.11 CassandraSpark.py
+service cassandra stop
+
+==================================================================================================================

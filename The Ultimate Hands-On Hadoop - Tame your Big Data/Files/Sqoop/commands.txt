@@ -1,0 +1,5 @@
+Import to HDFS from SQL:
+sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies -m 1
+
+Import to Hive from SQL with Sqoop:
+sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies -m 1 --hive-import

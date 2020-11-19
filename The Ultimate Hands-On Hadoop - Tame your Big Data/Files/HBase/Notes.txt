@@ -1,0 +1,13 @@
+su root
+/usr/hdp/current/hbase-master/bin/hbase-daemon.sh start rest -p 8000 --infoport 8001
+/usr/hdp/current/hbase-master/bin/hbase-daemon.sh stop rest
+
+create 'users','userinfo';
+list
+exit
+wget http://media.sundog-soft.com/hadoop/hbase.pig
+scan 'users'
+disable 'users'
+drop 'users'
+list
+exit

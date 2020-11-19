@@ -1,0 +1,30 @@
+su root
+cd /var/lub/ambari-server/resources/stacks
+ls
+cd HDP
+cd 2.5
+cd services
+pwd
+git clone https://github.com/nikunjness/mongo-ambari.git
+sudo service ambari restart
+pip install pymongo
+exit
+cd ~
+wget http://media.sundog-soft.com/hadoop/MongoSpark.py
+export SPARK_MAJOR_VERSION=2
+spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.0.0 MongoSpark.py
+
+==================================================================================================================
+
+mongo
+mongo --eval "use movielens"
+mongo --eval "db.users.find( {use_id: 100} )"
+mongo --eval "db.users.explain().find( {user_id: 100} )"
+mongo --eval "db.users.createIndex( {user_id: 1} )"
+mongo --eval "db.users.find( {use_id: 100} )"
+mongo --eval "db.users.aggregate ( [{$group: {_id: {occupation: "$occupation"}, avgAge: {$avg: "$age"}}}] )"
+mongo --eval "db.users.count()"
+mongo --eval "db.getCollectionInfos()"
+mongo --eval "db.users.drop()"
+mongo --eval "db.getCollectionInfos()"
+exit

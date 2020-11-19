@@ -1,0 +1,17 @@
+yum install python-pip
+pip install mrjob==0.5.11
+yum install nano
+
+===========================================================================================================================================
+
+wget http://media.sundog-soft.com/hadoop/ml-100k/u.data
+
+wget http://media.sundog-soft.com/hadoop/RatingsBreakDown.py
+
+python RatingsBreakdown.py u.data
+
+python MostPopularMovie.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
+
+wget http://media.sundog-soft.com/hadoop/TopMovies.py
+
+python TopMovies.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data

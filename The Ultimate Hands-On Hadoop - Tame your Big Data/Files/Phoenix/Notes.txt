@@ -1,0 +1,41 @@
+Ambari > Start HBase
+
+su root
+yum install phoenix
+cd /usr/hdp/current/phoenix-client/
+ls
+cd bin
+ls
+python sqlline.py
+!tables
+CREATE TABLE IF NOT EXISTS us_population(
+  state CHAR(2) NOT NULL,
+  city VARCHAR NOT NULL,
+  population BIGINT
+  CONSTRAINT my_ok PRIMARY KEY (state, city));
+!tables;
+UPSERT INTO us_population VALUES ('NY', 'New York', 8912019);
+UPSERT INTO us_population VALUES ('CA', 'Los Angeles', 2312321);
+SELECT * FROM us_population;
+DROP TABLE us_population;
+!quit
+
+===================================================================================================================
+
+su root
+cd /usr/hdp/current/phoenix-client/bin
+python sqlline.py
+CREATE TABLE users(userid INTEGER NOT NULL, age INTEGER,  gender CHAR(1), occupation VARCHAR, zip VARCHAR CONSTRAINT pk PRIMARY_KEY(userid));
+!quit
+cd /home/maria_dev
+mkdir ml-100k
+cd ml-100k
+wget http://media.sundog-soft.com/hadoop/ml-100k/u.user
+cd ..
+wget http://media.sundog-soft.com/hadoop/phoenix.pig
+pig phoenix.pig
+cd /usr/hdp/current/phoenix-client/bin
+python sqlline.py
+SELECT * FROM users LIMIT 10;
+DROP TABLE users;
+!quit

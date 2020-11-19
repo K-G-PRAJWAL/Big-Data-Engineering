@@ -1,0 +1,5 @@
+hadoop fs -ls
+hadoop fs -mkdir ml-100k
+hadoop fs -copyFromLocal u.data ml-100k/u.data
+hadoop fs -copyFromLocal u.data ml-100k/u.item
+hadoop fs -rmdir ml-100k

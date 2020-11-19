@@ -1,0 +1,39 @@
+Setup flume to monitor spool directory(Contains web logs)
+Publish this data through Avro to Spark Streaming(windowed interval to aggregate data in stateful manner across past 5 mins)
+
+==========================================================================================================
+
+wget http://media.sundog-soft.com/hadoop/sparkstreamingflume.conf
+wget http://media.sundog-soft.com/hadoop/SparkFlume.py
+mkdir checkpoint
+export SPARK_MAJOR_VERSION=2
+spark-submit --packages org.apache.spark:spark-streaming-flume_2.11:2.0.0 SparkFlume.py
+
+New Terminal:
+cd usr/hdp/current/flume-server
+bin/flume-ng agent --conf conf --conf-file ~/spark-streaming-flume.conf --name a1
+
+Another new terminal:
+wget http://media.sundog-soft.com/hadoop/access_log.txt
+cp access_log.txt spool/log22.txt
+cp access_log.txt spool/log23.txt
+
+==========================================================================================================
+
+Instead of web URLs, aggregate the HTTP status codes.
+Change the slide interval to 5 secs.
+
+==========================================================================================================
+
+Terminal 1:
+wget http://media.sundog-soft.com/hadoop/SparkFlumeExercise.py
+spark-submit --packages org.apache.spark:spark-streaming-flume_2.11:2.0.0 SparkFlumeExercise.py
+
+
+Terminal 2:
+cd usr/hdp/current/flume-server
+bin/flume-ng agent --conf conf --conf-file ~/spark-streaming-flume.conf --name a1
+
+
+Terminal 3:
+cp access_log.txt spool/log30.txt

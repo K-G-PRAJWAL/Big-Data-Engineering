@@ -1,0 +1,52 @@
+CREATE VIEW topMovieIDs AS
+SELECT movieID, count(movieID) as ratingCount
+FROM ratings
+GROUP BY movieID
+ORDER BY ratingCount DESC;
+
+SELECT n.title, ratingCount
+FROM topMovieIDs t JOIN names n ON t.movieID = n.movieID;
+
+====================================================================================================================
+
+CREATE VIEW IF NOT EXISTS avgRatings AS
+SELECT movieID, AVG(rating) as avgRating
+FROM ratings
+GROUP BY movieID
+ORDER BY avgRating DESC;
+
+SELECT n.title, avgRating
+FROM avgRatings t JOIN names n ON t.movieID = n.movieID
+WHERE ratingCount > 10;
+
+====================================================================================================================
+
+Import from MySQL to HDFS:
+sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies
+
+Import data from MySQL directly into Hive:
+sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies --hive-import
+
+Export From Hive to MySQL:
+sqoop export --connect jdbc:mysql://localhost/movielens -m 1 --driver com.mysql.jdbc.Driver --table exported_movies --export-dir /apps/hive/warehouse/movies --input-fields-terminated-by '\0001'
+
+====================================================================================================================
+
+wget http://media.sundog-soft.com/hadoop/movielens.sql
+mysql -u root -p
+create database movielens;
+show databases;
+SET NAMES 'utf8';
+SET CHARACTER SET utf8;
+use movielens;
+source movielens.sql;
+show tables;
+SELECT movies.title, COUNT(ratings.movie_id) AS ratingCount FROM movies INNER JOIN ratings ON movies.id = ratings.movie_id GROUP BY movies.title ORDER BY ratingCount; 
+GRANT ALL PRIVILEGES ON movielens.* to ''@'loclahost';
+sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies -m 1
+sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies -m 1 --hive-import
+CREATE TABLE exported_movies (id INTEGER, title VARCHAR(255), releaseDate DATE);
+sqoop export --connect jdbc:mysql://localhost/movielens -m 1 --driver com.mysql.jdbc.Driver --table exported_movies --export-dir /apps/hive/warehouse/movies --input-fields-terminated-by '\0001'
+
+====================================================================================================================
+

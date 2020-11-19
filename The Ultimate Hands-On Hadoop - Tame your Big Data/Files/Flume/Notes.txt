@@ -1,0 +1,20 @@
+(Terminal 1)
+wget http://media.sundog-soft.com/hadoop/example.conf
+cat example.conf
+
+(Terminal 2)
+cd /usr/hdp/current/flume-server
+bin/flume-ng agent --conf conf --conf-file ~/example.conf --name a1 -Dflume.root.logger=INFO,console
+
+(Terminal 1)
+telnet localhost 44444
+Hello World!
+
+====================================================================================================
+
+wget http://media.sundog-soft.com/hadoop/flumelogs.conf
+mkdir spool
+bin/flume-ng agent --conf conf --conf-file ~/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
+cp access_log_small.txt spool/x.txt
+cd spool
+ls
