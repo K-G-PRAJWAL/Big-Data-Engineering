@@ -28,7 +28,7 @@ A system to track and display the top 10 selling items on an e-commerce website.
 
 ### System Design
 
-<img src="systemDesign.jpg"/>
+<img src="systemDesign1.jpg"/>
 
 ---
 
