@@ -1,0 +1,44 @@
+-- Databricks notebook source
+-- MAGIC 
+-- MAGIC %md-sandbox
+-- MAGIC 
+-- MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
+-- MAGIC   <img src="https://databricks.com/wp-content/uploads/2018/03/db-academy-rgb-1200px.png" alt="Databricks Learning" style="width: 600px">
+-- MAGIC </div>
+
+-- COMMAND ----------
+
+-- MAGIC %md
+-- MAGIC ## Exam Outline
+-- MAGIC Use this outline to better understand the format and scope of the Databricks SQL analyst accreditation
+-- MAGIC 
+-- MAGIC ### Format: 
+-- MAGIC * 30 multiple choice questions
+-- MAGIC   * 10 Knowledge-based questions (Standard multiple choice)
+-- MAGIC   * 20 Practical questions 
+-- MAGIC       * Each question describes a task; the answer choices are written as SQL queries
+-- MAGIC       * The test-taker selects the query that will return the desired result
+-- MAGIC 
+-- MAGIC ### Knowledge-based Topics:
+-- MAGIC * High-level Spark and Spark SQL
+-- MAGIC * Tables and views
+-- MAGIC * Sharing and Presenting Data
+-- MAGIC * Join types
+-- MAGIC 
+-- MAGIC ### Practical Topics: 
+-- MAGIC * Basic Queries
+-- MAGIC * Managing Query Results
+-- MAGIC * Joins
+-- MAGIC * Timestamp Functions
+-- MAGIC * Aggregation
+-- MAGIC * Nested Data
+-- MAGIC * Higher-Order Functions
+-- MAGIC  
+
+-- COMMAND ----------
+
+-- MAGIC %md-sandbox
+-- MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
+-- MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+-- MAGIC <br/>
+-- MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>

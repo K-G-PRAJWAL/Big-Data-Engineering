@@ -1,0 +1,29 @@
+Characteristics:
+	Volume
+	Velocity
+	Variety
+	Veracity
+	Value
+
+1 Zettabyte = 1 billion TB(1,000,000,000)
+IDC - International Data Corporation - 33 Zettabytes(2018) -> 177 Zettabytes(2025)
+
+
+Struggles:
+	Lack of Tools
+	Working with multiple data sources
+	No single source of truth
+	
+Need:
+	Well-designed data infrastructure
+	Universal tools
+	Single source of truth
+	Unified data teams
+
+
+Big Data Needs:
+							Real-time dashboards
+							  /
+	High flux event data -> Long-term data storage -> - Periodic reporting
+							  \
+							Artificial Intelligence 

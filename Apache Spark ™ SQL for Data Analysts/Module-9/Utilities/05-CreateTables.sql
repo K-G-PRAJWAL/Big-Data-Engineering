@@ -1,0 +1,125 @@
+-- Databricks notebook source
+-- MAGIC 
+-- MAGIC %run ./Common
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC 
+-- MAGIC # SETUP
+-- MAGIC 
+-- MAGIC def setup():
+-- MAGIC   return createDummyData("dcad_58_p", yesNo="TrueFalse").createOrReplaceTempView("revenue1")
+-- MAGIC 
+-- MAGIC setup()
+-- MAGIC 
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following table:
+-- MAGIC    <li><span style="color:green; font-weight:bold">revenue1</span></li>
+-- MAGIC """)
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC 
+-- MAGIC # SETUP
+-- MAGIC 
+-- MAGIC def setup():
+-- MAGIC   return createDummyData("dcad_118_p", yesNo="TrueFalse").createOrReplaceTempView("revenue2")
+-- MAGIC 
+-- MAGIC setup()
+-- MAGIC 
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following table:
+-- MAGIC    <li><span style="color:green; font-weight:bold">revenue2</span></li>
+-- MAGIC """)
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC 
+-- MAGIC # SETUP
+-- MAGIC 
+-- MAGIC def setup():
+-- MAGIC   return createDummyData("dcad_211_p", yesNo="TrueFalse").createOrReplaceTempView("revenue3")
+-- MAGIC   
+-- MAGIC setup()
+-- MAGIC 
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following table:
+-- MAGIC    <li><span style="color:green; font-weight:bold">revenue3</span></li>
+-- MAGIC """)
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC # SETUP
+-- MAGIC 
+-- MAGIC def setup():
+-- MAGIC   createDummyData("dcad_131_p").createOrReplaceTempView("revenue4")
+-- MAGIC 
+-- MAGIC setup()
+-- MAGIC 
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following table:
+-- MAGIC    <li><span style="color:green; font-weight:bold">revenue4</span></li>
+-- MAGIC """)
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC # SETUP
+-- MAGIC 
+-- MAGIC # Coding Challenge Setup
+-- MAGIC # Always declare here any variables or functions created for the candidate
+-- MAGIC def setup():
+-- MAGIC   spark.createDataFrame([
+-- MAGIC     ("0S24A4", 75, None, 36),
+-- MAGIC     ("14G32J", 23, 3, 24),
+-- MAGIC     ("3F24Y2", 14, 5, 5),
+-- MAGIC     (None, 17, 14, 3),  
+-- MAGIC     ("6F69N3", 17, 3, 3),
+-- MAGIC     ("6N9M14", 5, None, 11),
+-- MAGIC     (None, 129, 7, 11),  
+-- MAGIC     ("T70K64", 34, None, 24),
+-- MAGIC     (None, 34, None, 22),
+-- MAGIC     ("S38J67", 34, 7, 8),
+-- MAGIC     ("E47U52", 81, 2, 2),
+-- MAGIC     ("011H9L", 56, 12, 11),
+-- MAGIC     ("94JF79", 73, 7, 11),  
+-- MAGIC     ("5D747S", 8, 8, 24),
+-- MAGIC     ("S01F66", 11, 2, 24),
+-- MAGIC     ("8X3V34", 23, 3, 8),
+-- MAGIC     ("66S87A", 34, 2, 2)
+-- MAGIC   ], ["itemId", "amount", "aisle", "price"]).createOrReplaceTempView("products")
+-- MAGIC 
+-- MAGIC setup()
+-- MAGIC 
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following tables:
+-- MAGIC   <li><span style="color:green; font-weight:bold">products</span> </li>
+-- MAGIC """)
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC # SETUP
+-- MAGIC 
+-- MAGIC def setup():
+-- MAGIC   from pyspark.sql.functions import to_timestamp, to_date
+-- MAGIC   from pyspark.sql.functions import col
+-- MAGIC   
+-- MAGIC   (createDummyData("rollup", name="itemName", UTCTime="date", amount="revenue")
+-- MAGIC     .dropna()
+-- MAGIC     .filter(col("itemName") != " ")
+-- MAGIC     .withColumn("date", to_date(to_timestamp("date")))
+-- MAGIC     .select("itemName", "date", "revenue")
+-- MAGIC     .createOrReplaceTempView("sales")
+-- MAGIC   ) 
+-- MAGIC   
+-- MAGIC   
+-- MAGIC setup()
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following table:
+-- MAGIC    <li><span style="color:green; font-weight:bold">sales</span></li>
+-- MAGIC """)

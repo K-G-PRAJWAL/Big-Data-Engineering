@@ -1,0 +1,9 @@
+Spark:	Distributed Computing Engine
+	Variety of data sources & storage formats
+	Multiple language APIs
+
+Spark SQL:	Spark library for structured data processing
+		SQL to access spark
+		Ease of use
+		Optimized
+		Unified analytics teams

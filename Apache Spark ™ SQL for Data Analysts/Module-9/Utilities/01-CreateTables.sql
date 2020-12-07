@@ -1,0 +1,47 @@
+-- Databricks notebook source
+-- MAGIC 
+-- MAGIC %run ./Common
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC 
+-- MAGIC def setup():
+-- MAGIC   from pyspark.sql.types import StringType
+-- MAGIC   from pyspark.sql.functions import abs, col
+-- MAGIC   
+-- MAGIC   return (createDummyData("dcad_63_p", name="retailer", yesNo="active", UTCTime="createdAt", password="code", amount="price", id="discountId")
+-- MAGIC                  .withColumn("price", col("price").cast(StringType()))
+-- MAGIC                  .withColumn("active", col("active").cast(StringType()))
+-- MAGIC                  .withColumn("discountId", abs(col("discountId")).cast(StringType()))
+-- MAGIC                  .withColumn("createdAt", col("createdAt").cast(StringType()))
+-- MAGIC                  .drop("Percent", "Probability", "index")
+-- MAGIC                  .createOrReplaceTempView("discounts"))
+-- MAGIC           
+-- MAGIC 
+-- MAGIC setup()
+-- MAGIC 
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following table:
+-- MAGIC   <li><span style="color:green; font-weight:bold">discounts</span></li>
+-- MAGIC """)
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC # Coding Challenge Setup
+-- MAGIC def setup() -> DataFrame:
+-- MAGIC   from pyspark.sql.types import StringType, IntegerType
+-- MAGIC   from pyspark.sql.functions import abs, col
+-- MAGIC   
+-- MAGIC   return (createDummyData("dcad_137_p", yesNo="active", password="code", amount="cents")
+-- MAGIC                  .withColumn("active", col("active").cast(StringType()))
+-- MAGIC                  .withColumn("cents", (col("cents") * 100).cast(IntegerType()).cast(StringType()))
+-- MAGIC                  .drop("id", "name", "UTCTime", "Percent", "Probability", "index")).createOrReplaceTempView("discounts2")
+-- MAGIC 
+-- MAGIC setup()
+-- MAGIC 
+-- MAGIC displayHTML("""
+-- MAGIC Declared the following table:
+-- MAGIC   <li><span style="color:green; font-weight:bold">discounts2</span></li>
+-- MAGIC """)
