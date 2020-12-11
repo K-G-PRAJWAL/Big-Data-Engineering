@@ -1,0 +1,64 @@
+create table sales_2015 as select * from sales where ship_date between '2015-01-01' and '2015-12-31';
+select * from sales_2015;
+
+create table customer_20_60 as select * from customer where age between 20 and 60;
+select * from customer_20_60;
+
+/* Inner Join */
+select
+	a.order_line, a.product_id, a.customer_id, a.sales, b.customer_name, b.age
+from
+	sales_2015 as a
+inner join
+	customer_20_60 as b
+on
+	a.customer_id=b.customer_id
+order by 
+	customer_id;
+	
+--Left Join
+select
+	a.order_line, a.product_id, a.customer_id, a.sales, b.customer_name, b.age
+from
+	sales_2015 as a
+left join
+	customer_20_60 as b
+on 
+	a.customer_id=b.customer_id
+order by
+	customer_id;
+	
+--Right Join
+select
+	a.order_line, a.product_id, a.customer_id, a.sales, b.customer_name, b.age
+from
+	sales_2015 as a
+right join
+	customer_20_60 as b
+on 
+	a.customer_id=b.customer_id
+order by
+	customer_id;
+	
+--Full Join
+select
+	a.order_line, a.product_id, a.customer_id, a.sales, b.customer_name, b.age, b.customer_id
+from
+	sales_2015 as a
+full join
+	customer_20_60 as b
+on 
+	a.customer_id=b.customer_id
+order by
+	a.customer_id, b.customer_id;
+	
+--Cross Join
+create table months(MM integer);
+create table years(YYYY integer);
+insert into months values (1),(2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12);
+insert into years values (2011),(2012),(2013),(2014),(2015),(2016),(2017),(2018),(2019),(2020);
+select * from months;
+select * from years;
+select a.YYYY,b.MM
+from years a, months b
+order by a.YYYY, b.MM;

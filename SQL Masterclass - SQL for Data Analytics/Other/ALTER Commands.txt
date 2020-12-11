@@ -1,0 +1,19 @@
+select * from customer_table;
+
+-- ALTER Commands
+
+alter table customer_table add test varchar(255);
+
+alter table customer_table drop test;
+
+alter table customer_table alter column age type varchar(255);
+
+alter table customer_table rename column email_id to customer_email;
+
+alter table customer_table alter column cust_id set not null;
+
+alter table customer_table alter column cust_id drop not null;
+
+alter table customer_table add constraint cust_id check (cust_id > 0);
+
+alter table customer_table add primary key (cust_id);
