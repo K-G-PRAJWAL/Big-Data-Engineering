@@ -2,7 +2,7 @@
 
 ### Course Resources
 
-This repository is home to the resources of some the most popular courses related to **Data**. These include Database Management, Big Data, Data Engineering, Data Analytics and Data Science. The courses are listed below. I hope they serve you well :blush:.
+This repository is home to the resources of some of the most popular courses related to **Data**. These include Database Management, Big Data, Data Engineering, Data Analytics and Data Science. The courses are listed below. I hope they serve you well:blush:.
 
 | Sl.No       | Course      |
 | :---------: | :---------: |
@@ -15,4 +15,4 @@ This repository is home to the resources of some the most popular courses relate
 
 ### Projects
 
-The repository also has a [Project](https://github.com/K-G-PRAJWAL/Big-Data-Engineering/tree/main/Projects) directory that contains some of the projects I have worked on. Feel free to fork and contribute :smiley:.
+The repository also has a [Project](https://github.com/K-G-PRAJWAL/Big-Data-Engineering/tree/main/Projects) directory that contains some of the projects I have worked on. Feel free to fork and contribute:smiley:.
