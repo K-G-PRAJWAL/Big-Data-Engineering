@@ -15,4 +15,4 @@ This repository is home to the resources of some the most popular courses relate
 
 ### Projects
 
-The repository also has a [Project] directory that contains some of the projects I have worked on. Feel free to fork and contribute :smiley:.
+The repository also has a [Project](https://github.com/K-G-PRAJWAL/Big-Data-Engineering/tree/main/Projects) directory that contains some of the projects I have worked on. Feel free to fork and contribute :smiley:.
