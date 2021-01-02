@@ -1,0 +1,6 @@
+Document Stores - MongoDB(open source), DynamoDB(cloud Key value and document), DocumentDB(cloud document)
+
+Behavioural events
+irregular tables
+ragged datasets
+fast and easily scalable

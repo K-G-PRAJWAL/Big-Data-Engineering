@@ -1,0 +1,14 @@
+Key-Value NoSQL - Redis, Memcached, GCP cloud memorystore for redis, AWS elasticache for Redis
+
+Store huge lists
+Lists/dictionaries are stored in memory
+Used to store HOT datasets, for caching
+Extremely fast and easily scalable
+Open Source(Redis)
+Enterprise(RedisLabs)
+Cloud Native(GCP Cloudmemory store for Redis)
+
+-----------------------------------------------
+
+GCP Cloudmemory store for Redis	-	https://cloud.google.com/memorystore
+AWS elasticache			-	https://aws.amazon.com/elasticache/

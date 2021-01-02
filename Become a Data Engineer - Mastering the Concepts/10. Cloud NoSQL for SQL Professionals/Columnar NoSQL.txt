@@ -1,0 +1,15 @@
+Columnar NoSQL - Cassandra
+
+Behavioural events
+stored in irregular tables
+used in ragged datasets
+fast for aggregate queries
+easily scalable
+GCP BigTable -> GCP Spanner
+GCP BigQuery -> Aggregation Store
+Open Source - Cassandra
+Cloud Events -GCP BigTable
+Cloud Warehouse - GCP BigQuery
+
+AWS - https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/
+GCP - https://cloud.google.com/bigquery

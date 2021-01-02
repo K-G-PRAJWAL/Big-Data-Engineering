@@ -1,0 +1,8 @@
+Real time event databases - GCP Firestore
+Data is stored and made available in real time
+Used to store event based data
+Fast and scalable
+
+AWS IoT Core
+AWS TimeStream
+AWS QLDB

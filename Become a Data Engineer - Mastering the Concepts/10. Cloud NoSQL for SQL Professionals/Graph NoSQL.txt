@@ -1,0 +1,11 @@
+Graph Databases - Neo4J
+
+Nodes and edges
+fast and easily scalable
+
+Neo4J 	- Open source/commercial
+	- Cypher - property graphs
+
+AWS NeptuneDB	- supports graph based data in 2 formats
+		- Gremlin -> CSV
+		- SPARKQL -> triples/quads, RDF, turtle data formats

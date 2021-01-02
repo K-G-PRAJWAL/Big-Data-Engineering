@@ -1,0 +1,17 @@
+NoSQL Storage are used for files/semi-structured tables
+Doesn't use relational tables or schemas
+Specific to NoSQL database type
+Not use SQL for querying
+Not use relational tables and Joins
+Optimized by system type
+Uses propreitary storage methods
+Hadoop/Spark ecosystem uses NTFS or Data Lakes
+DataLakes operate on distributed file systems, increasingly cloud-based, AWS S3,...
+NoSQL CRUD operations do not use schemas or transactions
+Does not use STAR schemas
+Does not use aggregations to optimize
+CAP Theorem
+
+
+
+
