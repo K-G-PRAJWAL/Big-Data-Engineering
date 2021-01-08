@@ -1,0 +1,2 @@
+Sale_ID|Product_ID|Quantity_Sold|Vendor_ID|Sale_Date|Sale_Amount|Sale_Currency|Hold_Reason
+GKS032|P005||GV012|2020-04-06T00:00:00.000+05:30||INR|Qty Sold Missing

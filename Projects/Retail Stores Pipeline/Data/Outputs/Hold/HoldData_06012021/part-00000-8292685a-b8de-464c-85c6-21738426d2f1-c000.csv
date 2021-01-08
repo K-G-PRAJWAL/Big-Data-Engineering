@@ -1,0 +1,5 @@
+Sale_ID|Product_ID|Quantity_Sold|Vendor_ID|Sale_Date|Sale_Amount|Sale_Currency|Hold_Reason
+GKS003|P003||GV003|2020-04-01T00:00:00.000+05:30||INR|Qty Sold Missing
+GKS008|P101||GV107|2020-04-03T00:00:00.000+05:30||USD|Qty Sold Missing
+GKS010|P105|2||2020-04-03T00:00:00.000+05:30||USD|Vendor ID Missing
+GKS018|P005||GV012|2020-04-06T00:00:00.000+05:30||INR|Qty Sold Missing
