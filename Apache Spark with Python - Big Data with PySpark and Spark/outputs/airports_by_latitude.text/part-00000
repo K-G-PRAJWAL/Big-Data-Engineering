@@ -1,0 +1,1486 @@
+"Narsarsuaq", 61.160517
+"Nuuk", 64.190922
+"Sondre Stromfjord", 67.016969
+"Thule Air Base", 76.531203
+"Akureyri", 65.659994
+"Egilsstadir", 65.283333
+"Hornafjordur", 64.295556
+"Husavik", 65.952328
+"Isafjordur", 66.058056
+"Keflavik International Airport", 63.985
+"Patreksfjordur", 65.555833
+"Reykjavik", 64.13
+"Siglufjordur", 66.133333
+"Vestmannaeyjar", 63.424303
+"Sault Ste Marie", 46.485001
+"Winnipeg St Andrews", 50.056389
+"Shearwater", 44.639721
+"St Anthony", 51.391944
+"Tofino", 49.082222
+"Kugaaruk", 68.534444
+"Baie Comeau", 49.1325
+"Bagotville", 48.330555
+"Baker Lake", 64.298889
+"Campbell River", 49.950832
+"Brandon Muni", 49.91
+"Cambridge Bay", 69.108055
+"Nanaimo", 49.052333
+"Castlegar", 49.296389
+"Miramichi", 47.007778
+"Charlo", 47.990833
+"Kugluktuk", 67.816667
+"Coronation", 52.075001
+"Chilliwack", 49.152779
+"Clyde River", 70.486111
+"Fairmont Hot Springs", 64.193333
+"Dawson City", 64.043056
+"Burwash", 61.371111
+"Princeton", 49.468056
+"Deer Lake", 49.210833
+"Dease Lake", 58.422222
+"Dauphin Barker", 51.100834
+"Dawson Creek", 55.742333
+"Edmonton Intl", 53.309723
+"Arviat", 61.094166
+"Estevan", 49.210278
+"Edson", 53.578888
+"Eureka", 79.994722
+"Inuvik Mike Zubko", 68.304167
+"Iqaluit", 63.75639
+"Fredericton", 45.868889
+"Forestville", 48.746111
+"Flin Flon", 54.678055
+"Fort Resolution", 61.180832
+"Fort Simpson", 61.760153
+"Kingston", 44.225277
+"La Grande Riviere", 53.625278
+"Gaspe", 48.775278
+"Geraldton Greenstone Regional", 49.778332
+"Iles De La Madeleine", 47.424721
+"Hudson Bay", 52.816666
+"Dryden Rgnl", 49.831667
+"Ulukhaktok Holman", 70.762778
+"Gjoa Haven", 68.635556
+"Hamilton", 43.173611
+"St Hubert", 45.5175
+"Hay River", 60.839722
+"Halifax Intl", 44.880833
+"Atikokan Muni", 48.773888
+"Pond Inlet", 72.683334
+"St Jean", 45.294445
+"Stephenville", 48.544167
+"Kamloops", 50.702222
+"Waterloo", 43.460833
+"Schefferville", 54.805278
+"Kindersley", 51.5175
+"Buttonville Muni", 43.862221
+"Chapleau", 47.82
+"Meadow Lake", 54.125278
+"Lloydminster", 53.309166
+"Alert", 82.517778
+"Kelowna", 49.956112
+"Mayo", 63.616389
+"Moose Jaw Air Vice Marshal C M Mcewen", 50.330278
+"Fort Mcmurray", 56.653333
+"Moosonee", 51.291111
+"Maniwaki", 46.272778
+"Montreal Intl Mirabel", 45.681944
+"Natashquan", 50.19
+"Gatineau", 45.521694
+"Matagami", 49.761667
+"Old Crow", 67.570556
+"Cold Lake", 54.404999
+"High Level", 58.621389
+"Ottawa Macdonald Cartier Intl", 45.3225
+"Prince Albert Glass Field", 53.214167
+"Peace River", 56.226944
+"Southport", 49.903056
+"Pitt Meadows", 49.21611
+"Pickle Lake", 51.446388
+"Port Menier", 49.836389
+"Peterborough", 44.23
+"Prince Rupert", 54.28611
+"Fort Chipewyan", 58.767223
+"Muskoka", 44.974722
+"Quebec Jean Lesage Intl", 46.791111
+"Red Deer Regional", 52.182222
+"Windsor", 42.275556
+"Watson Lake", 60.116389
+"Kenora", 49.788334
+"Lethbridge", 49.630278
+"Greater Moncton Intl", 46.112221
+"Comox", 49.710833
+"Regina Intl", 50.431944
+"Thunder Bay", 48.371944
+"Grande Prairie", 55.179722
+"Yorkton Muni", 51.264721
+"North Battleford", 52.769167
+"Gander Intl", 48.936944
+"Sydney", 46.161388
+"Quesnel", 53.026112
+"Resolute Bay", 74.716944
+"Riviere Du Loup", 47.764444
+"Roberval", 48.52
+"Rocky Mountain House", 52.429722
+"Rankin Inlet", 62.81139
+"Sudbury", 46.625
+"Sherbrooke", 45.438611
+"Saint John", 45.316111
+"Fort Smith", 60.020278
+"Nanisivik", 72.982222
+"Summerside", 46.440556
+"Sachs Harbour", 71.993889
+"Cape Dorset", 64.23
+"Thompson", 55.801111
+"Trenton", 44.118889
+"Timmins", 48.569721
+"City Centre", 43.627499
+"Tuktoyaktuk", 69.433334
+"Pierre Elliott Trudeau Intl", 45.470556
+"Repulse Bay", 66.521389
+"Hall Beach", 68.776111
+"Rouyn Noranda", 48.206111
+"La Ronge", 55.15139
+"Vermilion", 53.355833
+"Qikiqtarjuaq", 67.545833
+"Val D Or", 48.053333
+"Kuujjuaq", 58.096111
+"Norman Wells", 65.281617
+"Vancouver Intl", 49.193889
+"Buffalo Narrows", 55.841944
+"Wiarton", 44.745834
+"Petawawa", 45.952221
+"Winnipeg Intl", 49.910036
+"Wabush", 52.921944
+"Williams Lake", 52.183056
+"Wrigley", 63.209444
+"Canadian Rockies Intl", 49.612222
+"Edmonton City Centre", 53.5725
+"Saskatoon J G Diefenbaker Intl", 52.170834
+"Medicine Hat", 50.01889
+"Fort St John", 56.238056
+"Sioux Lookout", 50.113889
+"Pangnirtung", 66.145
+"Timiskaming Rgnl", 47.695
+"Prince George", 53.889444
+"Terrace", 54.468508
+"London", 43.033056
+"Abbotsford", 49.025278
+"Whitehorse Intl", 60.709553
+"North Bay", 46.363611
+"Calgary Intl", 51.113888
+"Smithers", 54.824722
+"Fort Nelson", 58.836389
+"Penticton", 49.463056
+"Charlottetown", 46.290001
+"Taloyoak", 69.546667
+"Victoria Intl", 48.646944
+"Lynn Lake", 56.863888
+"Swift Current", 50.291944
+"Churchill", 58.739167
+"Goose Bay", 53.319168
+"St Johns Intl", 47.61861
+"Kapuskasing", 49.413889
+"Armstrong", 50.290279
+"Mont Joli", 48.608612
+"Lester B Pearson Intl", 43.677223
+"Downsview", 43.7425
+"Gore Bay Manitoulin", 45.885277
+"Yellowknife", 62.462778
+"Slave Lake", 55.293056
+"Sandspit", 53.254333
+"Chris Hadfield", 42.999444
+"Port Hardy", 50.680556
+"Whitecourt", 54.14389
+"Sept Iles", 50.223333
+"Teslin", 60.172779
+"Greenwood", 44.984444
+"Faro", 62.2075
+"Fort Mcpherson", 67.4075
+"Deurne", 51.189444
+"Beauvechain", 50.75861
+"Kleine Brogel", 51.168333
+"Brussels Natl", 50.901389
+"Bertrix", 49.891667
+"Brussels South", 50.459197
+"Chievres Ab", 50.575833
+"Koksijde", 51.090278
+"Florennes", 50.243333
+"Wevelgem", 50.817222
+"Liege", 50.637417
+"Oostende", 51.198889
+"Zutendaal", 50.9475
+"Sint Truiden", 50.791944
+"Saint Hubert Mil", 50.035833
+"Ursel", 51.144133
+"Weelde", 51.394783
+"Zoersel", 51.264722
+"Bautzen", 51.193531
+"Altenburg Nobitz", 50.981817
+"Dessau", 51.831828
+"Eisenhuttenstadt", 52.197333
+"Grossenhain", 51.308111
+"Merseburg", 51.363
+"Halle Oppin", 51.552
+"Riesa Gohlis", 51.2935
+"Rechlin Larz", 53.306417
+"Strausberg", 52.579978
+"Schonhagen", 52.203258
+"Barth", 54.33754
+"Jena Schongleina", 50.915161
+"Kyritz", 52.918833
+"Magdeburg", 52.073658
+"Rothenburg Gorlitz", 51.363167
+"Anklam", 53.8327
+"Cottbus Drewitz", 51.889475
+"Kamenz", 51.29625
+"Schonefeld", 52.380001
+"Dresden", 51.132767
+"Erfurt", 50.979811
+"Frankfurt Main", 50.026421
+"Munster Osnabruck", 52.134642
+"Hamburg", 53.630389
+"Tempelhof", 52.473025
+"Koln Bonn", 50.865917
+"Dusseldorf", 51.289453
+"Franz Josef Strauss", 48.353783
+"Nurnberg", 49.4987
+"Leipzig Halle", 51.432447
+"Saarbrucken", 49.214553
+"Stuttgart", 48.689878
+"Tegel", 52.559686
+"Hannover", 52.461056
+"Neuenland", 53.0475
+"Egelsbach", 49.960833
+"Frankfurt Hahn", 49.948672
+"Mannheim City", 49.472706
+"Allendorf Eder", 51.034878
+"Worms", 49.606511
+"Mainz Finthen", 49.968931
+"Eisenach Kindel", 50.992797
+"Siegerland", 50.707658
+"Hamburg Finkenwerder", 53.535886
+"Kiel Holtenau", 54.3795
+"Lubeck Blankensee", 53.805367
+"Dahlemer Binz", 50.405888
+"Meinerzhagen", 51.099445
+"Arnsberg Menden", 51.483333
+"Essen Mulheim", 51.402333
+"Bielefeld", 51.964833
+"Monchengladbach", 51.230356
+"Paderborn Lippstadt", 51.614089
+"Stadtlohn Vreden", 51.995844
+"Dortmund", 51.518314
+"Augsburg", 48.425158
+"Biberach An Der Riss", 48.111
+"Eggenfelden", 48.396167
+"Mindelheim Mattsies", 48.108833
+"Oberpfaffenhofen", 48.081364
+"Straubing", 48.90095
+"Vilshofen", 48.635167
+"Leutkirch Unterzeil", 47.859117
+"Friedrichshafen", 47.671317
+"Schwerin Parchim", 53.426997
+"Stendal Borstel", 52.627778
+"Aalen Heidenheim Elchingen", 48.777833
+"Bayreuth", 49.984428
+"Burg Feuerstein", 49.793833
+"Hof Plauen", 50.288836
+"Hassfurt Schweinfurt", 50.018
+"Koblenz Winningen", 50.3255
+"Trier Fohren", 49.8635
+"Speyer", 49.302776
+"Zweibrucken", 49.209525
+"Donaueschingen Villingen", 47.973331
+"Freiburg", 48.022653
+"Mengen Hohentengen", 48.053833
+"Schwabisch Hall", 49.118317
+"Finsterwalde Schacksdorf", 51.6075
+"Braunschweig Wolfsburg", 52.319167
+"Kassel Calden", 51.408394
+"Hildesheim", 52.179833
+"Bremerhaven", 53.507081
+"Emden", 53.391186
+"Leer Papenburg", 53.271592
+"Wilhelmshaven Mariensiel", 53.504833
+"Borkum", 53.5955
+"Norderney", 53.706822
+"Flensburg Schaferhaus", 54.771772
+"Rendsburg Schachtholm", 54.220928
+"Westerland Sylt", 54.91325
+"Amari", 59.260286
+"Kardla", 58.990756
+"Kuressaare", 58.229883
+"Parnu", 58.419044
+"Tallinn", 59.413317
+"Tartu", 58.307461
+"Enontekio", 68.362586
+"Eura", 61.116112
+"Halli", 61.85605
+"Helsinki Malmi", 60.254558
+"Helsinki Vantaa", 60.317222
+"Hameenkyro", 61.689656
+"Hanko", 59.848864
+"Hyvinkaa", 60.654444
+"Kiikala", 60.462502
+"Immola", 61.249172
+"Kitee", 62.166111
+"Ivalo", 68.607269
+"Joensuu", 62.662906
+"Jyvaskyla", 62.399453
+"Kauhava", 63.127078
+"Kemi Tornio", 65.781889
+"Kajaani", 64.285472
+"Kauhajoki", 62.462502
+"Kruunupyy", 63.721172
+"Kemijarvi", 66.712883
+"Kuusamo", 65.987575
+"Kittila", 67.701022
+"Kuopio", 63.00715
+"Lahti Vesivehmaa", 61.144158
+"Lappeenranta", 61.044553
+"Mariehamn", 60.122203
+"Menkijarvi", 62.946667
+"Mikkeli", 61.6866
+"Nummela", 60.333889
+"Oulu", 64.930061
+"Piikajarvi", 61.245558
+"Pori", 61.461686
+"Pudasjarvi", 65.402222
+"Pyhasalmi", 63.731917
+"Raahe Pattijoki", 64.688056
+"Rantasalmi", 62.065481
+"Rovaniemi", 66.564822
+"Rayskala", 60.744722
+"Savonlinna", 61.943064
+"Selanpaa", 61.062389
+"Sodankyla", 67.395033
+"Tampere Pirkkala", 61.414147
+"Teisko", 61.77335
+"Turku", 60.514142
+"Utti", 60.896394
+"Vaasa", 63.05065
+"Varkaus", 62.171111
+"Ylivieska", 64.060547
+"Belfast Intl", 54.6575
+"St Angelo", 54.398889
+"Belfast City", 54.618056
+"City of Derry", 55.042778
+"Birmingham", 52.453856
+"Coventry", 52.369722
+"Leicester", 52.607778
+"Gloucestershire", 51.894167
+"Wolverhampton", 52.5175
+"Kemble", 51.668056
+"Turweston", 52.040833
+"Wellesbourne Mountford", 52.192222
+"Manchester", 53.353744
+"Manchester Woodford", 53.338056
+"Chivenor", 51.087167
+"St Mawgan", 50.440558
+"Lyneham", 51.505144
+"Boscombe Down", 51.152189
+"Culdrose", 50.086092
+"St Athan", 51.404811
+"Yeovilton", 51.009358
+"Haverfordwest", 51.833056
+"Cardiff", 51.396667
+"Swansea", 51.605333
+"Bristol", 51.382669
+"Liverpool", 53.333611
+"Luton", 51.874722
+"Plymouth", 50.422778
+"Bournemouth", 50.78
+"Southampton", 50.950261
+"Lasham", 51.187167
+"Alderney", 49.706111
+"Guernsey", 49.434956
+"Jersey", 49.207947
+"Shoreham", 50.835556
+"Biggin Hill", 51.330833
+"Gatwick", 51.148056
+"City", 51.505278
+"Farnborough", 51.275833
+"Chalgrove", 51.676111
+"Blackbushe", 51.323889
+"Heathrow", 51.4775
+"Southend", 51.571389
+"Lydd", 50.956111
+"Manston", 51.342222
+"Brough", 53.719667
+"Carlisle", 54.9375
+"Gamston", 53.280556
+"Blackpool", 53.771667
+"Humberside", 53.574444
+"Walney Island", 54.131167
+"Leeds Bradford", 53.865897
+"Warton", 53.745097
+"Hawarden", 53.178056
+"Isle Of Man", 54.083333
+"Newcastle", 55.0375
+"Durham Tees Valley Airport", 54.509189
+"Nottingham East Midlands", 52.831111
+"Llanbedr", 52.811744
+"Ternhill", 52.871164
+"Shawbury", 52.798169
+"Woodvale", 53.581575
+"Kirkwall", 58.957778
+"Sumburgh", 59.878889
+"Wick", 58.458889
+"Dyce", 57.201944
+"Inverness", 57.5425
+"Glasgow", 55.871944
+"Edinburgh", 55.95
+"Islay", 55.681944
+"Prestwick", 55.509444
+"Benbecula", 57.481111
+"Scatsta", 60.432778
+"Dundee", 56.452499
+"Stornoway", 58.215556
+"Tiree", 56.499167
+"Leuchars", 56.372889
+"Lossiemouth", 57.705214
+"Cambridge", 52.205
+"Conington", 52.468056
+"Norwich", 52.675833
+"Stansted", 51.885
+"North Weald", 51.721667
+"Sheffield City", 53.394256
+"Cranfield", 52.072222
+"Exeter", 50.734444
+"Bristol Filton", 51.519444
+"Kidlington", 51.836944
+"Benson", 51.616389
+"Lakenheath", 52.409333
+"Mildenhall", 52.361933
+"Wattisham", 52.127283
+"Wyton", 52.357167
+"Fairford", 51.682167
+"Brize Norton", 51.749964
+"Odiham", 51.234139
+"Cosford", 52.640028
+"Northolt", 51.553
+"Coningsby", 53.093014
+"Dishforth", 54.137186
+"Leeming", 54.292383
+"Church Fenton", 53.834333
+"Honington", 52.342611
+"Cottesmore", 52.735711
+"Scampton", 53.307778
+"Wittering", 52.612558
+"Linton On Ouse", 54.048911
+"Waddington", 53.166167
+"Topcliffe", 54.205522
+"Cranwell", 53.03035
+"Barkston Heath", 52.962225
+"Marham", 52.648353
+"Schiphol", 52.308613
+"Budel", 51.25528
+"Maastricht", 50.911658
+"Deelen", 52.060556
+"Drachten", 53.119167
+"Eindhoven", 51.450139
+"Eelde", 53.11972
+"Gilze Rijen", 51.567389
+"De Kooy", 52.923353
+"Lelystad", 52.460278
+"Leeuwarden", 53.228611
+"Rotterdam", 51.956944
+"Soesterberg", 52.1273
+"Twenthe", 52.27
+"Valkenburg", 52.166139
+"Woensdrecht", 51.449092
+"Cork", 51.841269
+"Galway", 53.300175
+"Dublin", 53.421333
+"Ireland West Knock", 53.910297
+"Kerry", 52.180878
+"Casement", 53.301667
+"Shannon", 52.701978
+"Sligo", 54.280214
+"Waterford", 52.1872
+"Aarhus", 56.300017
+"Billund", 55.740322
+"Kastrup", 55.617917
+"Esbjerg", 55.525942
+"Gronholt Hillerod", 55.941387
+"Karup", 56.297458
+"Laeso", 57.277228
+"Lolland Falster Maribo", 54.699344
+"Odense", 55.476664
+"Krusa Padborg", 54.870306
+"Roskilde", 55.585567
+"Bornholm Ronne", 55.063267
+"Sonderborg", 54.964367
+"Skrydstrup", 55.225553
+"Skive", 56.550208
+"Thisted", 57.0688
+"Kolding Vamdrup", 55.436283
+"Vagar", 62.063628
+"Aars", 56.846944
+"Stauning", 55.990122
+"Aalborg", 57.092789
+"Luxembourg", 49.626575
+"Vigra", 62.560372
+"Andenes", 69.2925
+"Alta", 69.976111
+"Bomoen", 60.63885
+"Bronnoy", 65.461111
+"Bodo", 67.269167
+"Flesland", 60.293386
+"Batsfjord", 70.600278
+"Kjevik", 58.204214
+"Dagali", 60.416667
+"Bardufoss", 69.055758
+"Evenes", 68.4913
+"Leirin", 61.015556
+"Floro", 61.583611
+"Gardermoen", 60.193917
+"Karmoy", 59.345267
+"Hasvik", 70.486675
+"Kvernberget", 63.111781
+"Kjeller", 59.969336
+"Hoybuktmoen", 69.725781
+"Lista", 58.099486
+"Aro", 62.744722
+"Kjaerstad", 65.783997
+"Banak", 70.068814
+"Notodden", 59.565683
+"Orland", 63.698908
+"Roros", 62.578411
+"Moss", 59.378933
+"Longyear", 78.246111
+"Geiteryggen", 59.185
+"Sorstokken", 59.791925
+"Stokka", 65.956828
+"Langnes", 69.683333
+"Torp", 59.186703
+"Vaernes", 63.457556
+"Sola", 58.876778
+"Babice", 52.268494
+"Lech Walesa", 54.377569
+"Balice", 50.077731
+"Muchowiec", 50.238147
+"Pyrzowice", 50.474253
+"Mielec", 50.322275
+"Lawica", 52.421031
+"Jasionka", 50.109958
+"Goleniow", 53.584731
+"Redzikowo", 54.478889
+"Swidwin", 53.790639
+"Okecie", 52.16575
+"Strachowice", 51.102683
+"Babimost", 52.138517
+"Malmen", 58.402278
+"Bravalla", 58.610867
+"Uppsala", 59.897328
+"Ronneby", 56.266667
+"Rada", 58.498136
+"Landvetter", 57.662836
+"Jonkoping", 57.757594
+"Falkoping", 58.169794
+"Lidkoping", 58.465522
+"Save", 57.774722
+"Skovde", 58.4564
+"Trollhattan Vanersborg", 58.318056
+"Karlsborg", 58.513842
+"Satenas", 58.426445
+"Barkarby", 59.418694
+"Karlskoga", 59.345867
+"Mora", 60.957908
+"Skavsta", 58.788636
+"Arvika", 59.675856
+"Emmaboda", 56.610761
+"Feringe", 56.950278
+"Kristianstad", 55.921686
+"Landskrona", 55.944444
+"Oskarshamn", 57.350453
+"Anderstorp", 57.264167
+"Kalmar", 56.685531
+"Sturup", 55.530193
+"Halmstad", 56.691128
+"Hagshult", 57.292222
+"Kronoberg", 56.929144
+"Hallviken", 63.738333
+"Hedlanda", 62.408889
+"Sveg", 62.047811
+"Gallivare", 67.132408
+"Hudiksvall", 61.768092
+"Jokkmokk", 66.496236
+"Kramfors Solleftea", 63.048597
+"Lycksele", 64.548322
+"Optand", 63.128611
+"Sundsvall Harnosand", 62.528125
+"Ornskoldsvik", 63.408339
+"Pitea", 65.398333
+"Kiruna", 67.821986
+"Orsa", 61.190033
+"Skelleftea", 64.624772
+"Sattna", 62.481369
+"Umea", 63.791828
+"Vilhelmina", 64.579083
+"Arvidsjaur", 65.590278
+"Orebro", 59.223733
+"Vasteras", 59.589444
+"Kallax", 65.543758
+"Vidsel", 65.875325
+"Arboga", 59.386585
+"Arlanda", 59.651944
+"Bromma", 59.354372
+"Borlange", 60.422017
+"Hultsfred", 57.525833
+"Gavle", 60.593333
+"Saab", 58.40615
+"Kungsangen", 58.586253
+"Eskilstuna", 59.351078
+"Visby", 57.662797
+"Kalixfors", 67.764789
+"Spangdahlem Ab", 49.972667
+"Ramstein Ab", 49.436911
+"Bamberg Aaf", 49.920433
+"Giebelstadt Aaf", 49.648131
+"Buckeburg", 52.2785
+"Celle", 52.5912
+"Rheine Bentlage", 52.291167
+"Fritzlar", 51.1145
+"Laupheim", 48.220297
+"Mendig", 50.366
+"Niederstetten", 49.391833
+"Roth", 49.2175
+"Fassberg", 52.919406
+"Grafenwohr Aaf", 49.698686
+"Hanau Aaf", 50.169189
+"Hohenfels Aaf", 49.218056
+"Kitzingen Aaf", 49.743057
+"Nordholz", 53.767667
+"Diepholz", 52.585514
+"Geilenkirchen", 50.960817
+"Hohn", 54.312167
+"Jever", 53.5335
+"Laage", 53.918167
+"Norvenich", 50.831167
+"Schleswig", 54.459333
+"Wittmundhafen", 53.547833
+"Neubrandenburg", 53.602167
+"Wunstorf", 52.457333
+"Vilseck Aaf", 49.63361
+"Coleman Aaf", 49.563569
+"Wiesbaden Aaf", 50.049819
+"Landsberg Lech", 48.0705
+"Buchel", 50.173833
+"Erding", 48.322333
+"Furstenfeldbruck", 48.205667
+"Holzdorf", 51.767833
+"Ingolstadt Manching", 48.715667
+"Lechfeld", 48.1855
+"Neuburg", 48.711
+"Gutersloh", 51.922833
+"Susse", 69.2225
+"Dowagiac Municipal Airport", 41.9929342
+"Dusseldorf Hauptbahnhof", 51.220278
+"Tirana Rinas", 41.414742
+"Burgas", 42.569583
+"Gorna Oryahovitsa", 43.151444
+"Plovdiv", 42.067806
+"Sofia", 42.695194
+"Stara Zagora", 42.376667
+"Varna", 43.232072
+"Dubrovnik", 42.561353
+"Cepin", 45.542169
+"Osijek", 45.462667
+"Pula", 44.893533
+"Grobnicko Polje", 45.379483
+"Rijeka", 45.216889
+"Split", 43.538944
+"Varazdin", 46.294724
+"Zagreb", 45.742931
+"Zadar", 44.108269
+"Udbina", 44.55761
+"Asturias", 43.563567
+"Bilbao", 43.301097
+"Barcelona", 41.297078
+"A Coruna", 43.302061
+"Girona", 41.900969
+"Getafe", 40.294139
+"Barajas", 40.493556
+"Pamplona", 42.770039
+"Reus", 41.147392
+"Salamanca", 40.952117
+"San Sebastian", 43.356519
+"Santiago", 42.896333
+"Seo De Urgel", 42.338611
+"Torrejon", 40.496747
+"Valladolid", 41.706111
+"Cuatro Vientos", 40.370678
+"Vitoria", 42.882836
+"Vigo", 42.2318
+"Santander", 43.427064
+"Zaragoza Ab", 41.666242
+"Calais Dunkerque", 50.962097
+"Peronne St Quentin", 49.868547
+"Les Loges", 48.596219
+"Couterne", 48.545836
+"Bray", 49.971531
+"Le Touquet Paris Plage", 50.517385
+"Denain", 50.325808
+"Glisy", 49.873019
+"La Garenne", 44.174721
+"Cazaux", 44.533333
+"Merignac", 44.828335
+"Roumaniere", 44.825279
+"Francazal", 43.545555
+"Chateaubernard", 45.658333
+"Biard", 46.587745
+"Montlucon Gueret", 46.222644
+"Bellegarde", 45.862778
+"Mont De Marsan", 43.911667
+"Souche", 46.311303
+"Blagnac", 43.629075
+"Pau Pyrenees", 43.38
+"Lherm", 43.448891
+"Lourdes", 43.178675
+"Brie Champniers", 45.729247
+"La Roche", 45.150833
+"Bassillac", 45.198055
+"Anglet", 43.468419
+"Lalbenque", 44.351387
+"Antichan", 43.007764
+"La Teste De Buch", 44.59639
+"Le Sequestre", 43.913887
+"Mazamet", 43.55625
+"Lasbordes", 43.586113
+"Larzac", 43.989342
+"Montdragon", 43.771111
+"Marcillac", 44.407869
+"Thalamy", 45.534721
+"Villeneuve Sur Lot", 44.396946
+"Medis", 45.628056
+"Mimizan", 44.146111
+"Aire Sur L Adour", 43.709444
+"Montauban", 44.025694
+"Lamothe", 43.687778
+"Artigues De Lussac", 44.982498
+"Les Pujols", 43.090556
+"Virazeil", 44.498919
+"St Agnant", 45.887779
+"Pontivy", 48.056789
+"Aubigny Sur Nere", 47.474167
+"Scaer", 48.052508
+"Ancenis", 47.408056
+"Brienne Le Chateau", 48.429764
+"Houssen", 48.109853
+"Challanges", 47.005886
+"Tavaux", 47.039014
+"Joigny", 47.992222
+"Le Rozelier", 49.122383
+"Ardeche Meridionale", 44.544236
+"Loudes", 45.080689
+"Coltines", 45.076389
+"Ceyzeriat", 46.20089
+"Tarare", 45.901947
+"Montbeugny", 46.534581
+"Belmont", 43.823334
+"Cassagnes Begonhes", 44.177776
+"Metz Nancy Lorraine", 48.982142
+"Poretta", 42.552664
+"Saint Catherine", 42.530753
+"Sud Corse", 41.500557
+"Campo Dell Oro", 41.923637
+"Propriano", 41.660558
+"Solenzara", 41.924416
+"Corte", 42.29361
+"Branches", 47.850193
+"Aix Les Bains", 45.63805
+"Auvergne", 45.786661
+"Bourges", 47.058056
+"Challes Les Eaux", 45.56105
+"Champforgeuil", 46.826108
+"Annemasse", 46.191972
+"Saint Exupery", 45.726387
+"Charnay", 46.295103
+"Saint Yan", 46.412536
+"Renaison", 46.058334
+"Meythet", 45.929233
+"Saint Geoirs", 45.362944
+"Domerat", 46.352525
+"Chabeuil", 44.921594
+"Charmeil", 46.169689
+"Aurillac", 44.891388
+"Deols", 46.862194
+"Bron", 45.727172
+"Aix Les Milles", 43.505554
+"Le Cannet", 43.384672
+"Mandelieu", 43.54205
+"Boutheon", 45.540554
+"Le Tube", 43.522736
+"Salvaza", 43.215978
+"Provence", 43.435555
+"Cote D\\'Azur", 43.658411
+"Caritat", 44.140481
+"Rivesaltes", 42.740442
+"Le Castellet", 43.252506
+"Deaux", 44.069656
+"Mediterranee", 43.576194
+"Vias", 43.323522
+"Caumont", 43.9073
+"Salon", 43.606415
+"Lezignan Corbieres", 43.175835
+"Brenoux", 44.502108
+"Carpentras", 44.029847
+"Avord", 47.053333
+"Tille", 49.454444
+"Chateaudun", 48.058142
+"St Florent", 47.256839
+"Fauville", 49.028669
+"Octeville", 49.533889
+"Abbeville", 50.143492
+"Bricy", 47.987778
+"Vatry", 48.776072
+"Vallee De Seine", 49.384172
+"Val De Loire", 47.432222
+"Le Pontreau", 47.082136
+"Entrammes", 48.031361
+"St Denis De L Hotel", 47.896946
+"Le Bourget", 48.969444
+"Creil", 49.253547
+"Charles De Gaulle", 49.012779
+"Voisins", 48.837653
+"Villaroche", 48.604725
+"Toussus Le Noble", 48.751922
+"Orly", 48.725278
+"Cormeilles En Vexin", 49.096647
+"Velizy", 48.774406
+"Prunay", 49.208689
+"Barberey", 48.322136
+"Croismare", 48.593275
+"Rouvres", 49.226917
+"Bellevue", 46.967283
+"Fourchambault", 47.002625
+"Epinoy", 50.221814
+"Elesmes", 50.310467
+"La Veze", 47.206567
+"Bourscheid", 48.76625
+"Lesquin", 50.561942
+"Calonne", 50.618394
+"Charleville Mezieres", 49.783942
+"Frotey", 47.637611
+"Guipavas", 48.447911
+"Maupertus", 49.650106
+"Pleurtuit", 48.587683
+"Escoublac", 47.289444
+"Granville", 48.883057
+"St Gatien", 49.365339
+"Lann Bihoue", 47.760555
+"Les Ajoncs", 46.701944
+"Landivisiau", 48.530258
+"Carpiquet", 49.173333
+"Poulmic", 48.281703
+"Arnage", 47.948611
+"St Jacques", 48.069508
+"Lannion", 48.754378
+"Pluguffan", 47.974981
+"Nantes Atlantique", 47.153189
+"Armor", 48.537777
+"Ploujean", 48.603222
+"Meucon", 47.723303
+"Montoir", 47.312189
+"Bale Mulhouse", 47.589583
+"Meyenheim", 47.921978
+"Longvic", 47.26889
+"Frescaty", 49.071667
+"Mirecourt", 48.324961
+"Haguenau", 48.794331
+"Robinson", 48.636008
+"Courcelles", 47.487
+"Essey", 48.692069
+"Ochey", 48.583056
+"Pontarlier", 46.903958
+"Champagne", 49.31
+"Entzheim", 48.538319
+"Saint Sauveur", 47.783131
+"Pierrefeu", 43.247803
+"Le Palyvestre", 43.0973
+"Garons", 43.757444
+"Miquelon", 47.095472
+"St Pierre", 46.762904
+"Amberieu", 45.987335
+"Damblain", 48.086325
+"Dimokritos", 40.855869
+"Alexandria", 40.651128
+"Aristotelis", 40.446294
+"Amigdhaleon", 40.972775
+"Megas Alexandros Intl", 40.913306
+"Filippos", 40.28611
+"Ashford", 51.083333
+"Makedonia", 40.519725
+"Ferihegy", 47.436933
+"Debrecen", 47.488917
+"Kecskemet", 46.9175
+"Nyiregyhaza", 47.983892
+"Ocseny", 46.303889
+"Door County Cherryland Airport", 44.8436667
+"Szentkiralyszabadja", 47.077861
+"Szolnok", 47.122861
+"Amendola", 41.541392
+"Bari", 41.138856
+"Gino Lisa", 41.432917
+"Grottaglie", 40.517514
+"Lecce", 40.239228
+"Pescara", 42.431656
+"Casale", 40.657633
+"Gioia Del Colle", 40.767833
+"Alghero", 40.632133
+"Olbia Costa Smeralda", 40.898661
+"Aeritalia", 45.086353
+"Bresso", 45.542222
+"Malpensa", 45.630606
+"Bergamo Orio Al Serio", 45.673889
+"Torino", 45.200761
+"Albenga", 44.050608
+"Genova Sestri", 44.413333
+"Linate", 45.445103
+"Cameri", 45.529592
+"Parma", 44.824483
+"Piacenza", 44.913055
+"Levaldigi", 44.547019
+"Aviano Ab", 46.031889
+"Bolzano", 46.460194
+"Cervia", 44.224175
+"Bologna", 44.535444
+"Treviso", 45.6484
+"Rivolto", 45.97875
+"Forli", 44.194753
+"Ghedi", 45.432167
+"Verona Boscomantico", 45.472017
+"Montichiari", 45.428889
+"Ronchi Dei Legionari", 45.8275
+"Rimini", 44.020292
+"Istrana", 45.684867
+"Vicenza", 45.573411
+"Padova", 45.395767
+"Villafranca", 45.395706
+"Venezia Tessera", 45.505278
+"Ampugnano", 43.256286
+"Ciampino", 41.799361
+"Pratica Di Mare", 41.654522
+"Fiumicino", 41.804475
+"Guidonia", 41.990278
+"Marina Di Campo", 42.760277
+"Latina", 41.542436
+"Grazzanise", 41.060833
+"Capodichino", 40.886033
+"Pisa", 43.683917
+"Firenze", 43.809953
+"Grosseto", 42.759747
+"Urbe", 41.951946
+"Viterbo", 42.430183
+"Perugia", 43.095906
+"Cerklje", 45.899971
+"Ljubljana", 46.223686
+"Maribor", 46.479861
+"Portoroz", 45.473353
+"Slovenj Gradec", 46.471975
+"Ceske Budejovice", 48.946381
+"Caslav", 49.939653
+"Hradec Kralove", 50.2532
+"Horovice", 49.848111
+"Kbely", 50.121367
+"Kunovice", 49.029444
+"Karlovy Vary", 50.202978
+"Plzen Line", 49.675172
+"Mnichovo Hradiste", 50.540211
+"Mosnov", 49.696292
+"Namest", 49.165833
+"Pardubice", 50.013419
+"Pribram", 49.720078
+"Prerov", 49.425833
+"Ruzyne", 50.100833
+"Turany", 49.151269
+"Vodochody", 50.216581
+"Wiener Neustadt East", 47.843333
+"Wels", 48.183304
+"Graz", 46.991067
+"Innsbruck", 47.260219
+"Linz", 48.233219
+"Salzburg", 47.793304
+"Schwechat", 48.110278
+"Klagenfurt", 46.642514
+"Zeltweg", 47.202751
+"Braganca", 41.8578
+"Braga", 41.587058
+"Coimbra", 40.157223
+"Covilha", 40.264772
+"Ovar", 40.915867
+"Porto", 41.248055
+"Vila Real", 41.274334
+"Viseu", 40.725539
+"Eastern Oregon Regional Airport", 45.695
+"Mostar", 43.2829
+"Sarajevo", 43.824583
+"Arad", 46.17655
+"Bacau", 46.521946
+"Tautii Magheraus", 47.658389
+"Aurel Vlaicu", 44.503194
+"Mihail Kogalniceanu", 44.362222
+"Cluj Napoca", 46.785167
+"Caransebes", 45.42
+"Craiova", 44.318139
+"Iasi", 47.178492
+"Oradea", 47.025278
+"Henri Coanda", 44.572161
+"Sibiu", 45.785597
+"Satu Mare", 47.703275
+"Stefan Cel Mare", 47.6875
+"Cataloi", 45.062486
+"Transilvania Targu Mures", 46.467714
+"Traian Vuia", 45.809861
+"Les Eplatures", 47.08385
+"Geneve Cointrin", 46.238064
+"Saanen", 46.487499
+"Sion", 46.219592
+"Alpnach", 46.943889
+"Dubendorf", 47.398644
+"Emmen", 47.092369
+"Mollis", 47.078872
+"Meiringen", 46.743333
+"Payerne", 46.843208
+"Buochs", 46.974914
+"Lugano", 46.004275
+"Bern Belp", 46.9141
+"Grenchen", 47.181628
+"Zurich", 47.464722
+"St Gallen Altenrhein", 47.485033
+"Samedan", 46.534075
+"Esenboga", 40.128082
+"Akinci", 40.078919
+"Merzifon", 40.829375
+"Tokat", 40.306281
+"Ataturk", 40.976922
+"Bandirma", 40.317972
+"Tyonek Airport", 61.076667
+"Yalova", 40.684353
+"Topel", 40.735028
+"Riverton Regional", 43.064167
+"Samandira", 40.992975
+"Trabzon", 40.995108
+"Balti Intl", 47.838114
+"Chisinau Intl", 46.927744
+"Ohrid", 41.179956
+"Skopje", 41.961622
+"Beograd", 44.818444
+"Nis", 43.337289
+"Podgorica", 42.359392
+"Pristina", 42.572778
+"Tivat", 42.404664
+"Vrsac", 45.146889
+"M R Stefanik", 48.170167
+"Kosice", 48.663055
+"Malacky", 48.402028
+"Piestany", 48.625247
+"Sliac", 48.637839
+"Trencin", 48.865003
+"Tatry", 49.073594
+"Clow International Airport", 41.6959744
+"Kenosha Regional Airport", 42.5956944
+"Grand Geneva Resort Airport", 42.6149167
+"De Kalb Taylor Municipal Airport", 41.9338342
+"Purude University Airport", 40.4123056
+"Delaware County Airport", 40.2424722
+"Sabadell Airport", 41.5209
+"Reykjahlid Airport", 65.6558
+"Lyon Part-Dieu Railway", 46
+"Point Roberts Airpark", 48.9797222
+"Obihiro", 42.733333
+"New Chitose", 42.7752
+"Hakodate", 41.77
+"Chitose", 42.794475
+"Memanbetsu", 43.880606
+"Nakashibetsu", 43.5775
+"Tokachi", 42.890544
+"Wakkanai", 45.404167
+"Monbetsu", 44.303914
+"Asahikawa", 43.670833
+"Okushiri", 42.071667
+"Rishiri", 45.242006
+"Aomori", 40.734722
+"Hachinohe", 40.556447
+"Misawa Ab", 40.703222
+"Sazena", 50.1929
+"Macomb Municipal Airport", 40.5200833
+"Kalundborg Flyveplads", 55.7001
+"Gardermoen Airport", 60.1939
+"Wausau Downtown Airport", 44.9262845
+"Portage Municipal Airport", 43.5603136
+"Gogebic Iron County Airport", 46.5274747
+"Mackinac Island Airport", 45.8649344
+"Grand Marais Cook County Airport", 47.8383333
+"Porter County Municipal Airport", 41.4539722
+"McCarthy Airport", 61.4370608
+"Seward Airport", 60.1269383
+"Michigan City Municipal Airport", 41.7033
+"East Glacier Park Amtrak Station", 48.443965
+"Flugplatz Hoexter Holzminden", 51.4838
+"Dinslaken Schwarze-Heide", 51.3659
+"Allakaket Airport", 66.5519
+"Almaty", 43.352072
+"Balkhash", 46.893333
+"Astana Intl", 51.022222
+"Taraz", 42.853611
+"Manas", 43.061306
+"Osh", 40.608989
+"Shymkent", 42.364167
+"Yakutat", 59.3012
+"Uralsk", 51.150833
+"Pavlodar", 52.195
+"Semipalatinsk", 50.3513
+"Aktau", 43.86005
+"Aktyubinsk", 50.245833
+"Heydar Aliyev", 40.4675
+"Yakutsk", 62.09325
+"Mirny", 62.534689
+"Ignatyevo", 50.425394
+"Novy", 48.528044
+"Sawyer International Airport", 46.353611
+"Provideniya Bay", 64.378139
+"Sokol", 59.910989
+"Pevek", 69.783283
+"Yelizovo", 53.167889
+"Khomutovo", 46.888672
+"Knevichi", 43.398953
+"Kadala", 52.026317
+"Bratsk", 56.370556
+"Irkutsk", 52.268028
+"Mukhino", 51.807764
+"Boryspil Intl", 50.345
+"Donetsk Intl", 48.073611
+"Dnipropetrovsk Intl", 48.357222
+"Simferopol Intl", 45.052222
+"Zhuliany Intl", 50.401694
+"Lviv Intl", 49.8125
+"Ford Airport", 45.8183611
+"Odesa Intl", 46.426767
+"Pulkovo", 59.800292
+"Murmansk", 68.781672
+"Gomel", 52.527022
+"Vitebsk", 55.1265
+"Khrabrovo", 54.89005
+"Minsk 1", 53.864472
+"Minsk 2", 53.882469
+"Abakan", 53.74
+"Barnaul", 53.363775
+"Kemerovo", 55.270094
+"Omsk", 54.967042
+"Pashkovskiy", 45.034689
+"Uytash", 42.816822
+"Mineralnyye Vody", 44.225072
+"Shpakovskoye", 45.109165
+"Rostov Na Donu", 47.258208
+"Sochi", 43.449928
+"Astrakhan", 46.283333
+"Gumrak", 48.782528
+"Balandino", 55.305836
+"Magnitogorsk", 53.393131
+"Nizhnevartovsk", 60.949272
+"Bolshoye Savino", 57.914517
+"Surgut", 61.343694
+"Koltsovo", 56.743108
+"Turkmenbashi", 40.063333
+"Yuzhny", 41.257861
+"Bryansk", 53.214194
+"Sheremetyevo", 55.972642
+"Migalovo", 56.824736
+"Chertovitskoye", 51.814211
+"Vnukovo", 55.591531
+"Syktyvkar", 61.64705
+"Kazan", 55.606186
+"Orenburg", 51.795786
+"Ufa", 54.557511
+"Kurumoch", 53.504858
+"Delta County Airport", 45.722778
+"Lauf-Lillinghof", 49.6543
+"Balkhash Airport", 46.8933
+"Nastaetten", 50.1972
+"Finsterwalde-Heinrichsruh", 51.6377
+"Lommis Airport", 47.5244
+"Amlikon Glider Airport", 47.5742
+"Mukachevo Air Base", 48.4
+"Mukachevo", 48.4
+"Borovaya Airfield", 53.57
+"Weser-Wuemme", 53.054
+"Balti International Airport", 47.8381
+"Capital Intl", 40.080111
+"Dongshan", 49.204997
+"Chinggis Khaan Intl", 47.843056
+"Diwopu", 43.907106
+"Taiping", 45.623403
+"Hohenems", 47.385
+"Hailang", 44.524072
+"Barter Island Lrrs", 70.133989
+"Wainwright As", 70.613378
+"Cape Lisburne Lrrs", 68.875133
+"Point Lay Lrrs", 69.732875
+"Bettles", 66.913944
+"Clear", 64.301203
+"Indian Mountain Lrrs", 65.992794
+"Fort Yukon", 66.571492
+"Sparrevohn Lrrs", 61.097369
+"Bryant Ahp", 61.266381
+"Tatalina Lrrs", 62.894369
+"Cape Romanzof Lrrs", 61.780297
+"Laurence G Hanscom Fld", 42.469953
+"St Paul Island", 57.167333
+"Cape Newenham Lrrs", 58.646428
+"St George", 56.578344
+"Iliamna", 59.754356
+"Platinum", 59.011356
+"Big Mountain Afs", 59.361247
+"Oscoda Wurtsmith", 44.451558
+"Merrill Fld", 61.213544
+"Grand Forks Intl", 47.949256
+"Trenton Mercer", 40.276692
+"General Edward Lawrence Logan Intl", 42.364347
+"Griffiss Afld", 43.2338
+"Wendover", 40.718694
+"Eppley Afld", 41.303167
+"Port Angeles Cgas", 48.141481
+"Dane Co Rgnl Truax Fld", 43.139858
+"Dillingham", 59.044667
+"Bangor Intl", 44.807444
+"Spokane Intl", 47.619861
+"Cut Bank Muni", 48.608353
+"Allen Aaf", 63.994547
+"Annette Island", 55.042436
+"Caribou Muni", 46.8715
+"Cleveland Hopkins Intl", 41.411689
+"Huron Rgnl", 44.3852
+"Juneau Intl", 58.354972
+"Newark Liberty Intl", 40.6925
+"Boise Air Terminal", 43.564361
+"Minot Intl", 48.259378
+"Helena Rgnl", 46.606806
+"Houlton Intl", 46.123083
+"Nantucket Mem", 41.253053
+"Northern Maine Rgnl At Presque Isle", 46.688958
+"Gray Aaf", 47.079217
+"Kodiak", 57.749967
+"Falls Intl", 48.566186
+"Salt Lake City Intl", 40.788389
+"Harrisburg Intl", 40.193494
+"Lincoln", 40.850971
+"Capital City", 42.7787
+"Massena Intl Richards Fld", 44.935833
+"Millinocket Muni", 45.647836
+"Wheeler Sack Aaf", 44.055619
+"St Clair Co Intl", 42.910957
+"Grand Forks Afb", 47.961098
+"Northway", 62.961334
+"Palmer Muni", 61.594914
+"Pittsburgh Intl", 40.491467
+"Wiley Post Will Rogers Mem", 71.285446
+"Whidbey Island Nas", 48.351803
+"Seattle Tacoma Intl", 47.449
+"Igor I Sikorsky Mem", 41.163472
+"Williamsport Rgnl", 41.241836
+"Akron Fulton Intl", 41.0375
+"Westchester Co", 41.066959
+"Francis S Gabreski", 40.843656
+"Duluth Intl", 46.842091
+"Bethel", 60.779778
+"Havre City Co", 48.542983
+"Grant Co Intl", 47.207708
+"Edward F Knapp State", 44.203503
+"Merle K Mudhole Smith", 60.491778
+"Hill Afb", 41.123939
+"Nome", 64.512203
+"Scappoose Industrial Airpark", 45.771028
+"Menominee Marinette Twin Co", 45.12665
+"Deadhorse", 70.19475
+"Greater Rochester Intl", 43.118866
+"Teterboro", 40.850103
+"Ellsworth Afb", 44.145042
+"Kenai Muni", 60.573111
+"Niagara Falls Intl", 43.107333
+"Minot Afb", 48.415572
+"Greater Kankakee", 41.071389
+"Theodore Francis Green State", 41.732581
+"Detroit Metro Wayne Co", 42.212444
+"Pembina Muni", 48.942501
+"Eielson Afb", 64.665667
+"Chisholm Hibbing", 47.3866
+"Austin Straubel Intl", 44.485072
+"Mc Guire Afb", 40.015556
+"Sloulin Fld Intl", 48.177939
+"Stewart Intl", 41.504094
+"Baudette Intl", 48.728444
+"Homer", 59.645556
+"Fairchild Afb", 47.615058
+"Roscommon Co", 44.359806
+"Mc Chord Afb", 47.137678
+"Sawyer Intl", 46.353625
+"Gerald R Ford Intl", 42.880833
+"Elmendorf Afb", 61.250986
+"Ralph Wien Mem", 66.884678
+"Altoona Blair Co", 40.296372
+"La Guardia", 40.777245
+"Dupage", 41.907778
+"Augusta State", 44.320647
+"Burlington Intl", 44.471861
+"Felts Fld", 47.682819
+"General Mitchell Intl", 42.947222
+"Portland Intl", 45.588722
+"Ogdensburg Intl", 44.681854
+"Otis Angb", 41.658439
+"Boeing Fld King Co Intl", 47.53
+"Des Moines Intl", 41.533972
+"Coleman A Young Muni", 42.409195
+"Selfridge Angb", 42.608333
+"Syracuse Hancock Intl", 43.111187
+"Chicago Midway Intl", 41.785972
+"Northeast Philadelphia", 40.081944
+"Sioux Gateway Col Bud Day Fld", 42.402603
+"Princeton Muni", 45.559868
+"Edward G Pitka Sr", 64.736178
+"Plattsburgh Intl", 44.650944
+"Ted Stevens Anchorage Intl", 61.174361
+"Bellingham Intl", 48.792694
+"Hartford Brainard", 41.736722
+"North Central State", 41.920764
+"King Salmon", 58.676778
+"Muir Aaf", 40.434811
+"John F Kennedy Intl", 40.639751
+"Willow Grove Nas Jrb", 40.199833
+"Cheyenne Rgnl Jerry Olson Fld", 41.155722
+"Ketchikan Intl", 55.355556
+"Willow Run", 42.237928
+"Lakehurst Naes", 40.033333
+"Eareckson As", 52.712275
+"Waukegan Rgnl", 42.422161
+"Buffalo Niagara Intl", 42.940525
+"Griffing Sandusky", 41.433361
+"Snohomish Co", 47.906342
+"Mountain Home Afb", 43.043603
+"Bradley Intl", 41.938889
+"Westover Arb Metropolitan", 42.194014
+"Chicago Ohare Intl", 41.978603
+"Fairbanks Intl", 64.815114
+"Offutt Afb", 41.118332
+"Gulkana", 62.154888
+"Watertown Intl", 43.991922
+"Fort Dodge Rgnl", 42.5512
+"Cold Bay", 55.206061
+"Sitka Rocky Gutierrez", 57.047138
+"Long Island Mac Arthur", 40.79525
+"Minneapolis St Paul Intl", 44.881956
+"Unalaska", 53.900139
+"Portland Intl Jetport", 43.646161
+"Albany Intl", 42.748267
+"Valdez Pioneer Fld", 61.133949
+"Grissom Arb", 40.648094
+"Natrona Co Intl", 42.908
+"Great Falls Intl", 47.482
+"Youngstown Warren Rgnl", 41.260736
+"Ladd Aaf", 64.8375
+"Mc Minnville Muni", 45.194444
+"Militaerlager", 46.6166
+"Krems Langenlois", 48.446075
+"Pullman-Moscow Rgnl", 46.743861
+"Lewiston Nez Perce Co", 46.3745
+"Elmira Corning Rgnl", 42.159889
+"Ithaca Tompkins Rgnl", 42.491028
+"Liepaja Intl", 56.5175
+"Riga Intl", 56.923611
+"Siauliai Intl", 55.893886
+"Barysiai", 56.070556
+"Kaunas Intl", 54.963919
+"S. Darius", 54.879792
+"Palanga Intl", 55.973228
+"Vilnius Intl", 54.634133
+"Pajuostis", 55.729444
+"Erebuni", 40.122114
+"Stepanavan", 41.04845
+"Zvartnots", 40.147275
+"Gyumri", 40.750369
+"Batumi", 41.610278
+"Kopitnari", 42.176653
+"Tbilisi", 41.669167
+"Allgau", 47.988758
+"RK Heliplex", 50.2735
+"Wall Street Heliport", 40.701214
+"Ilulissat", 69.23444
+"Qasigiannguit", 68.833336
+"Aasiaat", 68.7
+"Talkeetna", 62.3205
+"Tweed-New Haven Airport", 41.26375
+"Sioux Falls", 43.582014
+"Manchester Regional Airport", 42.932556
+"Gallatin Field", 45.777643
+"Billings Logan International Airport", 45.80921
+"Bert Mooney Airport", 45.954806
+"Cherry Capital Airport", 44.741445
+"Hancock County - Bar Harbor", 44.4497689
+"Knox County Regional Airport", 44.0601111
+"Jackson Hole Airport", 43.607333333
+"Chicago Rockford International Airport ", 42.1953611
+"Domododevo", 55.408611
+"East 34th Street Heliport", 40.7425
+"Cologne Railway", 50.9425
+"Stuttgart Railway Station", 48.783611
+"Central Illinois Rgnl", 40.477111
+"Kalamazoo", 42.234875
+"Toledo", 41.586806
+"Fort Wayne", 40.978472
+"Cedar Rapids", 41.884694
+"La Crosse Municipal", 43.878986
+"Central Wisconsin", 44.772726
+"Peoria Regional", 40.664203
+"Appleton", 44.257526
+"Rochester", 43.908283
+"Champaign", 40.03925
+"EuroAirport Basel-Mulhouse-Freiburg", 47.59
+"Franklin", 41.377874
+"Quad City Intl", 41.448528
+"Tolmachevo", 55.012622
+"Stavns", 55.89
+"Bismarck Municipal Airport", 46.775842
+"Rapid City Regional Airport", 44.045278
+"Bishop International", 42.965424
+"Ekati", 64.698889
+"Redding Muni", 40.509
+"Mahlon Sweet Fld", 44.124583
+"Idaho Falls Rgnl", 43.514556
+"Rogue Valley Intl Medford", 42.374228
+"Roberts Fld", 44.254066
+"Victoria Inner Harbour Airport", 48.422778
+"Vancouver Coal Harbour", 49.289722
+"Roschino", 57.189567
+"Akron Canton Regional Airport", 40.9160833
+"Kurumoch", 53.5
+"Glacier Park Intl", 48.310472
+"Mbs Intl", 43.532913
+"Greater Binghamton Edwin A Link Fld", 42.208689
+"Shenyang Taoxian International Airport", 41.3824
+"Petersburg James A. Johnson", 56.801667
+"Brac", 43.285719
+"Bergrestaurant", 46.992094
+"Uetliberg", 47.36029
+"Flugplatz Merzbrueck", 50.823194
+"Baden Airpark", 48.7793
+"John Murtha Johnstown-Cambria County Airport", 40.316111
+"Niederrhein", 51.602222
+"Zweibruecken", 49.209445
+"Sonderlandeplatz Norden-Norddeich", 53.632221
+"Verkehrslandeplatz Juist", 53.681572
+"Missoula Intl", 46.916306
+"Aklavik", 68.223333
+"Deline", 65.1833333
+"Tulita", 64.0833333
+"Fort Good Hope", 66.26666667
+"Inuvik Town", 66.3676
+"INAWR", 68.3676
+"Paulatuk", 62.35
+"Nicholson Peninsula", 69.917
+"Kulusuk", 65.566667
+"Skagen", 68.580833
+"Cuyahoga County", 41.565124
+"Mansfield Lahm Regional", 40.8214167
+"Fort Collins Loveland Muni", 40.451828
