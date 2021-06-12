@@ -1,0 +1,29 @@
+GV001|IN_Vendor1|Blr_Street1|Bangalore|Karnataka|India|100000|2020-04-20 00:00:00
+GV002|IN_Vendor2|Blr_Street2|Bangalore|Karnataka|India|100001|2020-04-20 00:00:00
+GV003|IN_Vendor3|Hu_Street1|Hubli|Karnataka|India|100002|2020-04-20 00:00:00
+GV004|IN_Vendor4|Ma_Street1|Magalore|Karnataka|India|100003|2020-04-20 00:00:00
+GV005|IN_Vendor5|Ma_Street2|Magalore|Karnataka|India|100004|2020-04-20 00:00:00
+GV006|IN_Vendor6|Lko_Street1|Lucknow|UP|India|100005|2020-04-20 00:00:00
+GV007|IN_Vendor7|Lko_Street2|Lucknow|UP|India|100006|2020-04-20 00:00:00
+GV008|IN_Vendor8|Ag_Street1|Agra|UP|India|100007|2020-04-20 00:00:00
+GV009|IN_Vendor9|NO_Street1|NOIDA|UP|India|100008|2020-04-20 00:00:00
+GV010|IN_Vendor10|Al_Street1|Allahabad|UP|India|100009|2020-04-20 00:00:00
+GV011|IN_Vendor11|Koc_Street1|Kochi|Kerala|India|100010|2020-04-20 00:00:00
+GV012|IN_Vendor12|Koz_Street1|Kozhikode|Kerala|India|100011|2020-04-20 00:00:00
+GV013|IN_Vendor13|Koz_Street2|Kozhikode|Kerala|India|100012|2020-04-20 00:00:00
+GV014|IN_Vendor14|Kann_Street1|Kannur|Kerala|India|100013|2020-04-20 00:00:00
+GV015|IN_Vendor15|Th_Street1|Thrissur|Kerala|India|100014|2020-04-20 00:00:00
+GV016|IN_Vendor16|Am_Street1|Amritsar|Punjab|India|100015|2020-04-20 00:00:00
+GV017|IN_Vendor17|Am_Street2|Amritsar|Punjab|India|100016|2020-04-20 00:00:00
+GV018|IN_Vendor18|Lud_Street1|Ludhiana|Punjab|India|100017|2020-04-20 00:00:00
+GV019|IN_Vendor19|Pat_Street1|Patiala|Punjab|India|100018|2020-04-20 00:00:00
+GV020|IN_Vendor20|Ch_Street1|Chandigarh|Punjab|India|100019|2020-04-20 00:00:00
+GV101|US_Vendor1|SanD_Street1|San Diego|California|US|200000|2020-04-20 00:00:00
+GV102|US_Vendor2|LA_Street1|Los Angeles|California|US|200001|2020-04-20 00:00:00
+GV103|US_Vendor3|SanJ_Street1|San Jose|California|US|200002|2020-04-20 00:00:00
+GV104|US_Vendor4|Ta_Street1|Tampa|Florida|US|200003|2020-04-20 00:00:00
+GV105|US_Vendor5|Ta_Street2|Tampa|Florida|US|200004|2020-04-20 00:00:00
+GV106|US_Vendor6|Mi_Street1|Miami|Florida|US|200005|2020-04-20 00:00:00
+GV107|US_Vendor7|Ph_Street1|Phoenix|Arizona|US|200006|2020-04-20 00:00:00
+GV108|US_Vendor8|Ph_Street2|Phoenix|Arizona|US|200007|2020-04-20 00:00:00
+GV109|US_Vendor9|Tu_Street1|Tucson|Arizona|US|200008|2020-04-20 00:00:00
