@@ -14,6 +14,7 @@ This repository is home to the resources of some of the most popular courses rel
 | 6           |[Apache Spark with Python - Big Data with PySpark and Spark](https://www.packtpub.com/product/apache-spark-with-python-big-data-with-pyspark-and-spark-video/9781789133394)|
 | 7           |[Spark and Python for Big Data with PySpark](https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/?src=sac&kw=spark+and+py)|| 7           |[Spark and Python for Big Data with PySpark](https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/?src=sac&kw=spark+and+py)|
 | 8           |[Data Engineering, Serverless ETL & BI on Amazon Cloud](https://www.udemy.com/course/data-engineering-serverless-elt-bi-on-amazon-cloud/)|
+| 9           |[Taming Big Data with Apache Spark Hands-On](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)|
 
 ---
 
