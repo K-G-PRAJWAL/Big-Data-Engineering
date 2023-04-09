@@ -2,7 +2,7 @@ YouTube Data Anlaysis pipeline to extract data from CSV/JSON([Kaggle Source](htt
 
 Architecture:
 
-![](https://github.com/K-G-PRAJWAL/Big-Data-Engineering/tree/main/Projects/YouTube-Data-Pipeline/arch.png)
+![](https://github.com/K-G-PRAJWAL/Big-Data-Engineering/blob/main/Projects/YouTube-Data-Pipeline/arch.png)
 
 Commands to copy data from local to AWS S3 via AWSCLI:
 
