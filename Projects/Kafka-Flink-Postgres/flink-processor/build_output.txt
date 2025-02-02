@@ -1,0 +1,336 @@
+
+$ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.prajwal:flink-kafka2postgres:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flink:flink-json:jar -> duplicate declaration of version ${flink.version} @ line 104, column 21
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------< org.prajwal:flink-kafka2postgres >------------------
+[INFO] Building flink-kafka2postgres 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ flink-kafka2postgres ---
+[INFO] Deleting C:\DATA\Projects\Big-Data-Engineering\Projects\Kafka-Flink-Postgres\flink-processor\target
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ flink-kafka2postgres ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ flink-kafka2postgres ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\DATA\Projects\Big-Data-Engineering\Projects\Kafka-Flink-Postgres\flink-processor\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ flink-kafka2postgres ---
+[INFO] skip non existing resourceDirectory C:\DATA\Projects\Big-Data-Engineering\Projects\Kafka-Flink-Postgres\flink-processor\src\test\resources
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ flink-kafka2postgres ---
+[INFO] Changes detected - recompiling the module!
+[INFO]
+[INFO] --- surefire:2.22.2:test (default-test) @ flink-kafka2postgres ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.2/maven-surefire-common-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.2/maven-surefire-common-2.22.2.pom (11 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.pom (1.6 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.5.2/maven-plugin-tools-3.5.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.5.2/maven-plugin-tools-3.5.2.pom (15 kB at 169 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.pom (3.5 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.pom (2.0 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.pom (7.5 kB at 111 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom (24 kB at 320 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom (6.9 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom (3.3 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom (3.3 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.pom (16 kB at 233 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.2/maven-surefire-common-2.22.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.2/maven-surefire-common-2.22.2.jar (528 kB at 2.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar (186 kB at 1.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.jar (274 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar (80 kB at 300 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar (12 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar (228 kB at 771 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar (13 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar (14 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar (194 kB at 521 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar (156 kB at 367 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar (315 kB at 663 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar (68 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar (332 kB at 513 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar (51 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar (39 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar (88 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar (178 kB at 201 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar (35 kB at 38 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar (30 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar (49 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar (8.8 kB at 8.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar (22 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 8.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar (17 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar (13 kB at 9.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar (26 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar (22 kB at 16 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar (316 kB at 215 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar (10 kB at 7.1 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar (38 kB at 21 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar (38 kB at 19 kB/s)
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ flink-kafka2postgres ---
+[INFO] Building jar: C:\DATA\Projects\Big-Data-Engineering\Projects\Kafka-Flink-Postgres\flink-processor\target\flink-kafka2postgres-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- shade:3.1.1:shade (default) @ flink-kafka2postgres ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom (4.7 kB at 67 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom (7.6 kB at 112 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom (4.8 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom (5.0 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom (4.1 kB at 60 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 kB at 162 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom (42 kB at 482 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom (15 kB at 230 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (2.7 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (12 kB at 179 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom (1.9 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom (5.5 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.pom (2.1 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom (2.1 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom (4.6 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom (7.3 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/20/maven-shared-components-20.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/20/maven-shared-components-20.pom (5.1 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 kB at 445 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom (15 kB at 241 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.pom (11 kB at 193 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom (1.9 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom (5.5 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.pom (2.1 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0_BETA/asm-tree-6.0_BETA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0_BETA/asm-tree-6.0_BETA.pom (2.1 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0_BETA/asm-commons-6.0_BETA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0_BETA/asm-commons-6.0_BETA.pom (2.1 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.pom (2.1 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom (6.8 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom (9.9 kB at 159 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar (262 kB at 2.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar (164 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (233 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.jar (95 kB at 581 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar (123 kB at 742 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar (305 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar (77 kB at 317 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar (61 kB at 232 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar (134 kB at 361 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar (64 kB at 172 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.jar (22 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.jar (21 kB at 29 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 34 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar (48 kB at 56 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.jar (47 kB at 48 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar (2.3 MB at 1.9 MB/s)
+[INFO] Including org.apache.flink:flink-streaming-java:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-core:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-annotations:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-metrics-core:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-shaded-asm-9:jar:9.2-15.0 in the shaded jar.
+[INFO] Including com.esotericsoftware.kryo:kryo:jar:2.24.0 in the shaded jar.
+[INFO] Including com.esotericsoftware.minlog:minlog:jar:1.2 in the shaded jar.
+[INFO] Including org.objenesis:objenesis:jar:2.1 in the shaded jar.
+[INFO] Including commons-collections:commons-collections:jar:3.2.2 in the shaded jar.
+[INFO] Including org.apache.commons:commons-compress:jar:1.21 in the shaded jar.
+[INFO] Including org.apache.flink:flink-file-sink-common:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-java:jar:1.16.0 in the shaded jar.
+[INFO] Including com.twitter:chill-java:jar:0.7.6 in the shaded jar.
+[INFO] Including org.apache.flink:flink-shaded-guava:jar:30.1.1-jre-15.0 in the shaded jar.
+[INFO] Including org.apache.commons:commons-math3:jar:3.6.1 in the shaded jar.
+[INFO] Including org.slf4j:slf4j-api:jar:1.7.32 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:1.3.9 in the shaded jar.
+[INFO] Including org.apache.flink:flink-shaded-force-shading:jar:15.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-clients:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-optimizer:jar:1.16.0 in the shaded jar.
+[INFO] Including commons-cli:commons-cli:jar:1.5.0 in the shaded jar.
+[INFO] Skipping pom dependency org.apache.flink:flink-table:pom:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-table-api-java-bridge:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-table-api-bridge-base:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-table-api-java:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-table-common:jar:1.16.0 in the shaded jar.
+[INFO] Including com.ibm.icu:icu4j:jar:67.1 in the shaded jar.
+[INFO] Including org.apache.flink:flink-runtime:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-rpc-core:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-rpc-akka-loader:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-queryable-state-client-java:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-hadoop-fs:jar:1.16.0 in the shaded jar.
+[INFO] Including commons-io:commons-io:jar:2.11.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-shaded-netty:jar:4.1.70.Final-15.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-shaded-jackson:jar:2.12.4-15.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-shaded-zookeeper-3:jar:3.5.9-15.0 in the shaded jar.
+[INFO] Including org.apache.commons:commons-lang3:jar:3.3.2 in the shaded jar.
+[INFO] Including org.javassist:javassist:jar:3.24.0-GA in the shaded jar.
+[INFO] Including org.xerial.snappy:snappy-java:jar:1.1.8.3 in the shaded jar.
+[INFO] Including org.lz4:lz4-java:jar:1.8.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-table-planner_2.12:jar:1.16.0 in the shaded jar.
+[INFO] Including org.codehaus.janino:commons-compiler:jar:3.0.11 in the shaded jar.
+[INFO] Including org.codehaus.janino:janino:jar:3.0.11 in the shaded jar.
+[INFO] Including org.apache.flink:flink-scala_2.12:jar:1.16.0 in the shaded jar.
+[INFO] Including org.scala-lang:scala-reflect:jar:2.12.7 in the shaded jar.
+[INFO] Including org.scala-lang:scala-library:jar:2.12.7 in the shaded jar.
+[INFO] Including org.scala-lang:scala-compiler:jar:2.12.7 in the shaded jar.
+[INFO] Including org.scala-lang.modules:scala-xml_2.12:jar:1.0.6 in the shaded jar.
+[INFO] Including com.twitter:chill_2.12:jar:0.7.6 in the shaded jar.
+[INFO] Including org.apache.flink:flink-table-runtime:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-cep:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-connector-files:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-connector-jdbc:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-json:jar:1.16.0 in the shaded jar.
+[INFO] Including org.postgresql:postgresql:jar:42.5.0 in the shaded jar.
+[INFO] Including org.checkerframework:checker-qual:jar:3.5.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-csv:jar:1.16.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.13.4 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.13.4 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.4 in the shaded jar.
+[INFO] Including org.apache.flink:flink-connector-kafka:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.flink:flink-connector-base:jar:1.16.0 in the shaded jar.
+[INFO] Including org.apache.kafka:kafka-clients:jar:3.2.0 in the shaded jar.
+[INFO] Including com.github.luben:zstd-jni:jar:1.5.2-1 in the shaded jar.
+[INFO] Including org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.2 in the shaded jar.
+[INFO] Including org.apache.logging.log4j:log4j-api:jar:2.17.2 in the shaded jar.
+[INFO] Including org.apache.logging.log4j:log4j-core:jar:2.17.2 in the shaded jar.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] flink-connector-base-1.16.0.jar, flink-connector-files-1.16.0.jar define 83 overlapping classes: 
+[WARNING]   - org.apache.flink.connector.base.sink.writer.RequestEntryWrapper
+[WARNING]   - org.apache.flink.connector.base.source.reader.RecordsBySplits
+[WARNING]   - org.apache.flink.connector.base.source.hybrid.HybridSourceSplitSerializer
+[WARNING]   - org.apache.flink.connector.base.source.reader.fetcher.SplitFetcher$DummySplitFetcherTask
+[WARNING]   - org.apache.flink.connector.base.source.hybrid.HybridSource
+[WARNING]   - org.apache.flink.connector.base.source.hybrid.SwitchedSources
+[WARNING]   - org.apache.flink.connector.base.sink.writer.config.AsyncSinkWriterConfiguration$ConfigurationMaxInFlightRequests
+[WARNING]   - org.apache.flink.connector.base.sink.AsyncSinkBaseBuilder
+[WARNING]   - org.apache.flink.connector.base.source.reader.fetcher.SplitFetcherTask
+[WARNING]   - org.apache.flink.connector.base.source.reader.SourceReaderBase$SplitContext
+[WARNING]   - 73 more...
+[WARNING] jackson-datatype-jsr310-2.13.4.jar, jackson-databind-2.13.4.jar, log4j-api-2.17.2.jar, jackson-core-2.13.4.jar define 1 overlapping classes:
+[WARNING]   - META-INF.versions.9.module-info
+[WARNING] commons-compiler-3.0.11.jar, flink-table-runtime-1.16.0.jar define 28 overlapping classes:
+[WARNING]   - org.codehaus.commons.compiler.package-info
+[WARNING]   - org.codehaus.commons.compiler.ICookable
+[WARNING]   - org.codehaus.commons.compiler.samples.ScriptDemo
+[WARNING]   - org.codehaus.commons.compiler.Sandbox
+[WARNING]   - org.codehaus.commons.compiler.CompileException
+[WARNING]   - org.codehaus.commons.compiler.Sandbox$1
+[WARNING]   - org.codehaus.commons.compiler.WarningHandler
+[WARNING]   - org.codehaus.commons.compiler.CompilerFactoryFactory
+[WARNING]   - org.codehaus.commons.compiler.AbstractCompilerFactory
+[WARNING]   - org.codehaus.commons.compiler.Cookable
+[WARNING]   - 18 more...
+[WARNING] flink-json-1.16.0.jar, flink-csv-1.16.0.jar define 3 overlapping classes:
+[WARNING]   - org.apache.flink.formats.common.Converter
+[WARNING]   - org.apache.flink.formats.common.TimestampFormat
+[WARNING]   - org.apache.flink.formats.common.TimeFormats
+[WARNING] janino-3.0.11.jar, flink-table-runtime-1.16.0.jar define 457 overlapping classes:
+[WARNING]   - org.codehaus.janino.util.resource.ResourceCreator
+[WARNING]   - org.codehaus.janino.ReflectionIClass$ReflectionIField
+[WARNING]   - org.codehaus.janino.IClass$1
+[WARNING]   - org.codehaus.janino.UnitCompiler$35
+[WARNING]   - org.codehaus.janino.Java$PackageMemberEnumDeclaration
+[WARNING]   - org.codehaus.janino.Java$CompilationUnit$SingleStaticImportDeclaration
+[WARNING]   - org.codehaus.janino.UnitCompiler$13$1
+[WARNING]   - org.codehaus.janino.Unparser
+[WARNING]   - org.codehaus.janino.CodeContext$Branch
+[WARNING]   - org.codehaus.janino.ClassFileIClass$2
+[WARNING]   - 447 more...
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Attaching shaded artifact.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.195 s
+[INFO] Finished at: 2025-02-02T19:41:00+05:30
+[INFO] ------------------------------------------------------------------------
