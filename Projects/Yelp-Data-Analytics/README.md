@@ -14,4 +14,4 @@ MongoDB Cluster: https://cloud.mongodb.com/v2/6820aec5ffad0c513896fca0#/overview
 
 ##### Arch Diagram
 
-![](https://github.com/K-G-PRAJWAL/Big-Data-Engineering/tree/main/Projects/Yelp-Data-Anlaytics/Images/arch_diagram.png)
+![](https://github.com/K-G-PRAJWAL/Big-Data-Engineering/blob/main/Projects/Yelp-Data-Analytics/Images/arch_diagram.png)
