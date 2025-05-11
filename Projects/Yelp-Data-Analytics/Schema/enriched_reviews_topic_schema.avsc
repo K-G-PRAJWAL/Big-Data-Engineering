@@ -1,0 +1,48 @@
+{
+  "doc": "Avro Schema for enriched reviews",
+  "fields": [
+    {
+      "name": "review_id",
+      "type": "string"
+    },
+    {
+      "name": "user_id",
+      "type": "string"
+    },
+    {
+      "name": "business_id",
+      "type": "string"
+    },
+    {
+      "name": "stars",
+      "type": "float"
+    },
+    {
+      "name": "useful",
+      "type": "int"
+    },
+    {
+      "name": "funny",
+      "type": "int"
+    },
+    {
+      "name": "cool",
+      "type": "int"
+    },
+    {
+      "name": "text",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "string"
+    },
+    {
+      "name": "sentiment",
+      "type": "string"
+    }
+  ],
+  "name": "enriched_reviews_topic_schema",
+  "namespace": "com.kgprajwal",
+  "type": "record"
+}
